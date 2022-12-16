@@ -1,0 +1,12 @@
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Common\bin\Debug\Common.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Common\bin\Debug\Common.pdb
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Common\obj\Debug\Common.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Common\obj\Debug\Common.pdb
+D:\Documentos\Proyectos\EfectoSecurity\Common\bin\Debug\Common.dll
+D:\Documentos\Proyectos\EfectoSecurity\Common\bin\Debug\Common.pdb
+D:\Documentos\Proyectos\EfectoSecurity\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\Documentos\Proyectos\EfectoSecurity\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\Documentos\Proyectos\EfectoSecurity\Common\obj\Debug\Common.dll
+D:\Documentos\Proyectos\EfectoSecurity\Common\obj\Debug\Common.pdb

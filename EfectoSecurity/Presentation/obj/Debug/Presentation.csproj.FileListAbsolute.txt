@@ -1,0 +1,176 @@
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\Common.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\Domain.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\Common.pdb
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\Domain.pdb
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.csproj.AssemblyReference.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.csproj.SuggestedBindingRedirects.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.LoginForm.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.csproj.GenerateResource.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.csproj.CopyComplete
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\Newtonsoft.Json.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\Newtonsoft.Json.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\CircularProgressBar.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\WinFormAnimation.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\CircularProgressBar.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.WelcomeForm.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.MainForm.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Data.v21.2.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Printing.v21.2.Core.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Sparkline.v21.2.Core.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Utils.v21.2.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.XtraEditors.v21.2.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Data.v21.2.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Utils.v21.2.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormVerifyUser.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DPFPDevNET.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DPFPEngNET.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DPFPShrNET.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\DPFPVerNET.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormPlanes.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormPlanMaintenance.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormHorarioMaintenance.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormHorarios.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormClientes.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormClienteMaintenance.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormSelectPlan.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormCheckInClient.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormVerify.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormHistorialEntradas.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\Efecto System.exe.config
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\Efecto System.exe
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\Efecto System.pdb
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Efecto System.exe
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Efecto System.pdb
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormHistoryByUser.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.BaseForms.FingerPrintForm.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormUsers.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormUserProfile.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormUserMaintenance.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.CapturarHuella.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.BaseForms.CatchFingerForm.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\Efecto System.exe.manifest
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Debug\Efecto System.application
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Efecto System.TrustInfo.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Efecto System.exe.manifest
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Efecto System.application
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormHistorialPlanes.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\Efecto System.exe.config
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\Efecto System.exe.manifest
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\Efecto System.application
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\Efecto System.exe
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\Efecto System.pdb
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\CircularProgressBar.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\Common.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\Domain.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\WinFormAnimation.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\Newtonsoft.Json.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\Common.pdb
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\Domain.pdb
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\CircularProgressBar.xml
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Data.v21.2.xml
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Utils.v21.2.xml
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\Newtonsoft.Json.xml
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.csproj.AssemblyReference.cache
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.csproj.SuggestedBindingRedirects.cache
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.BaseForms.CatchFingerForm.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.BaseForms.FingerPrintForm.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.CapturarHuella.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormCheckInClient.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormClienteMaintenance.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormClientes.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormHistorialPlanes.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormSelectPlan.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormVerify.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormHorarioMaintenance.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormHorarios.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormPlanes.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormPlanMaintenance.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormUserMaintenance.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormUserProfile.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormUsers.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormVerifyUser.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormHistorialEntradas.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormHistoryByUser.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.LoginForm.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.MainForm.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.WelcomeForm.resources
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.csproj.GenerateResource.cache
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Efecto System.TrustInfo.xml
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Efecto System.exe.manifest
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Efecto System.application
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Presentation.csproj.CopyComplete
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Efecto System.exe
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\obj\Debug\Efecto System.pdb
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DPFPDevNET.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DPFPEngNET.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DPFPShrNET.dll
+D:\Documentos\Proyectos\EfectoSecurity\Presentation\bin\Debug\DPFPVerNET.dll

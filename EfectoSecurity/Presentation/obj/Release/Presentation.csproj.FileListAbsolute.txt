@@ -1,0 +1,90 @@
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\Efecto System.exe.config
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\Efecto System.exe
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\Efecto System.pdb
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\CircularProgressBar.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\Common.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Data.Desktop.v21.2.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Data.v21.2.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Printing.v21.2.Core.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Sparkline.v21.2.Core.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Utils.v21.2.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.XtraEditors.v21.2.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\Domain.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DPFPDevNET.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DPFPEngNET.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DPFPShrNET.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DPFPVerNET.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\WinFormAnimation.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\Newtonsoft.Json.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Pdf.v21.2.Core.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Pdf.v21.2.Drawing.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\Common.pdb
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\Domain.pdb
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\CircularProgressBar.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Data.Desktop.v21.2.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Data.v21.2.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Printing.v21.2.Core.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Sparkline.v21.2.Core.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Utils.v21.2.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.XtraEditors.v21.2.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\Newtonsoft.Json.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Pdf.v21.2.Core.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\DevExpress.Pdf.v21.2.Drawing.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\de\DevExpress.Data.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\es\DevExpress.Data.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\ja\DevExpress.Data.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\ru\DevExpress.Data.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\de\DevExpress.Printing.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\es\DevExpress.Printing.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\ja\DevExpress.Printing.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\ru\DevExpress.Printing.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\de\DevExpress.Utils.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\es\DevExpress.Utils.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\ja\DevExpress.Utils.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\ru\DevExpress.Utils.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\de\DevExpress.XtraEditors.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\es\DevExpress.XtraEditors.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\ja\DevExpress.XtraEditors.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\ru\DevExpress.XtraEditors.v21.2.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\de\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\es\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.csproj.AssemblyReference.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.csproj.SuggestedBindingRedirects.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.BaseForms.CatchFingerForm.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.BaseForms.FingerPrintForm.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.CapturarHuella.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.Clientes.FormCheckInClient.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.Clientes.FormClienteMaintenance.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.Clientes.FormClientes.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.Clientes.FormSelectPlan.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.Clientes.FormVerify.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.FormHorarioMaintenance.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.FormHorarios.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.FormPlanes.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.FormPlanMaintenance.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.Usuarios.FormUserMaintenance.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.Usuarios.FormUserProfile.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.Usuarios.FormUsers.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.FormVerifyUser.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.Usuarios.FormHistorialEntradas.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.ChildForms.Usuarios.FormHistoryByUser.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.LoginForm.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.MainForm.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.Properties.Resources.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.WelcomeForm.resources
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.csproj.GenerateResource.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.csproj.CoreCompileInputs.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Presentation.csproj.CopyComplete
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Efecto System.exe
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Efecto System.pdb
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\Efecto System.exe.manifest
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\bin\Release\Efecto System.application
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Efecto System.TrustInfo.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Efecto System.exe.manifest
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Presentation\obj\Release\Efecto System.application

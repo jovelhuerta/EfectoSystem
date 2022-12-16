@@ -1,0 +1,6 @@
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\DataAccess\bin\Debug\DataAccess.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\DataAccess\bin\Debug\DataAccess.pdb
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\DataAccess\obj\Debug\DataAccess.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\DataAccess\obj\Debug\DataAccess.pdb

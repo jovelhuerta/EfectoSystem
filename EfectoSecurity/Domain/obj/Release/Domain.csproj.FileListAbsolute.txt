@@ -1,0 +1,11 @@
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Domain\bin\Release\Domain.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Domain\bin\Release\Domain.pdb
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Domain\bin\Release\Common.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Domain\bin\Release\Newtonsoft.Json.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Domain\bin\Release\Common.pdb
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Domain\bin\Release\Newtonsoft.Json.xml
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Domain\obj\Release\Domain.csproj.AssemblyReference.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Domain\obj\Release\Domain.csproj.CoreCompileInputs.cache
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Domain\obj\Release\Domain.csproj.CopyComplete
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Domain\obj\Release\Domain.dll
+E:\Documentos\Files Jovel\Proyectos\EfectoSecurity\Domain\obj\Release\Domain.pdb
