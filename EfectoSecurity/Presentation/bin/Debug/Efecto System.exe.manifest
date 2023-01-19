@@ -451,14 +451,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Domain.dll" size="45568">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Domain.dll" size="48128">
       <assemblyIdentity name="Domain" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pmbwq2uzw5oC1SDBX1puX7SZx6UKunR3E8nUn7SThVY=</dsig:DigestValue>
+        <dsig:DigestValue>ppHQQ6P1E4DmFH0BahuVXDmWz2xQUh+DQ4LSR0NFbfw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -511,14 +511,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Efecto System.exe" size="985040">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Efecto System.exe" size="988112">
       <assemblyIdentity name="Efecto System" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3so2skJYxCehrbVpCUMQv77RHwvJZyVhnzfX0pY6+Lk=</dsig:DigestValue>
+        <dsig:DigestValue>yqBRksl23x/xHGYZZObo/f2bmcB1xtBM19cscbe/sdo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -555,13 +555,13 @@
       <dsig:DigestValue>fd7WRvwgGTi9kyYmarf0+SJMPencKxSATVy/jDsA/WA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Efecto System.exe.config" size="954">
+  <file name="Efecto System.exe.config" size="1194">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Iv18DGsMHR0cZ4RXCJbJuvdircZCV24rQ8kajoPP51A=</dsig:DigestValue>
+      <dsig:DigestValue>YA5Xl37YHBgO+PE8Lv9Izlnrp79Uz18YlTeY3GEYcqM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\btnClose.png" size="300">

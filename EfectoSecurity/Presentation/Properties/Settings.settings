@@ -5,5 +5,11 @@
     <Setting Name="ApiEfGym" Type="System.String" Scope="User">
       <Value Profile="(Default)">http://localhost:8082/api/</Value>
     </Setting>
+    <Setting Name="Sucursal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Develop</Value>
+    </Setting>
+    <Setting Name="Tipo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GYM</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
