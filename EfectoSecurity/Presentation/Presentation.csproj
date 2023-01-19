@@ -24,7 +24,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/develop/published/</InstallUrl>
-    <UpdateUrl>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/</UpdateUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/develop/published/</UpdateUrl>
     <PublisherName>JOVEL S.A.S</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
