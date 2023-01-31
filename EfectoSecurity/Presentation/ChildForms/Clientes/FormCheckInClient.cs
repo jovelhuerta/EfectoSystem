@@ -68,7 +68,7 @@ namespace Presentation.ChildForms.Clientes
                         txtNombre.Text = cltModels.NombreCliente;
                         txtEntrenador.Text = cltModels.EntrenadorActual;
                         txtIngreso.Text = DateTime.Parse(cltModels.FechaIngreso).ToShortDateString();
-
+                        lblSucursal.Text = cltModels.Sucursal;
                         DateTime now = DateTime.Now;
                         DateTime ven = DateTime.Parse(cltModels.FechaVencimiento);
                         TimeSpan difFechas = ven - now;
@@ -176,7 +176,7 @@ namespace Presentation.ChildForms.Clientes
                 DialogResult result = userForm.ShowDialog();
                 if (result == DialogResult.OK)
                 {
-                    var userDM = await cltModels.GetClientByNum(urlApi, cltModels.NumeroCliente);
+                    var userDM = await cltModels.GetClientByNum(urlApi, cltModels.Id);
                     cltModels = userDM;
                     ModelToFill(false);
                     ltsClientes = cltModels.GetAllClients(urlApi).ToList();

@@ -16,13 +16,15 @@ namespace Domain.Clients
         private string _planCosto;
         private string _registro;
         private string _costo;
+        private string _sucursal;
         private HistoryPlan _historyPlan;
 
         public HistoryPlanesClientesModel()
         {
             _historyPlan = new HistoryPlan();
         }
-        public HistoryPlanesClientesModel(string cliente, string fechaPago, string fechaVencimiento, string planCosto, string registro, string costo)
+        public HistoryPlanesClientesModel(string cliente, string fechaPago, string fechaVencimiento,
+            string planCosto, string registro, string costo, string sucursal)
         {
             _cliente = cliente;
             _fechaPago = fechaPago;
@@ -30,6 +32,7 @@ namespace Domain.Clients
             _planCosto = planCosto;
             _registro = registro;
             _costo = costo;
+            _sucursal = sucursal;
         }
 
         #region -> Validaciones de Datos Publicos
@@ -40,13 +43,15 @@ namespace Domain.Clients
         public string PlanCosto { get { return _planCosto; } set { _planCosto = value; } }
         public string Registro { get { return _registro; } set { _registro = value; } }
         public string Costo { get { return _costo; } set { _costo = value; } }
+        public string Sucursal { get { return _sucursal; } set { _sucursal = value; } } 
 
         #endregion
 
-        public IEnumerable<HistoryPlanesClientesModel> GetHisoryByRange(string url, string FInicio, string FFinal)
+        public IEnumerable<HistoryPlanesClientesModel> GetHisoryByRange(string url, string FInicio, string FFinal
+            ,string sucursal )
         {
             string result = peticiones.MethodHtt(url + "Clientes/GetHistorialPlanes/"
-                                                                     + FInicio + "/" + FFinal, null);
+                                                                     + FInicio + "/" + FFinal+"/"+sucursal, null);
             var results = JsonConvert.DeserializeObject<List<HistoryPlan>>(result);
             return MapModel(results);
         }
@@ -61,6 +66,7 @@ namespace Domain.Clients
                 PlanCosto = entity.planCosto,
                 Registro = entity.registro,
                 Costo = entity.costo,
+                Sucursal=entity.sucursal
             };
         }
 
@@ -83,5 +89,6 @@ namespace Domain.Clients
         public string planCosto { get; set; }
         public string registro { get; set; }
         public string costo { get; set; }
+        public string sucursal { get; set; }
     }
 }

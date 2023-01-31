@@ -74,5 +74,25 @@ namespace Presentation.ChildForms
             else
                 MessageBox.Show("Por favor seleccione una fila", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
+
+        private async void btnRemove_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.RowCount <= 0)
+            {
+                MessageBox.Show("No hay datos para seleccionar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            if (dataGridView1.SelectedCells.Count > 1)
+            {
+                var userDM = await planModel.DeletePlan(urlApi, (string)dataGridView1.CurrentRow.Cells[0].Value);
+                MessageBox.Show("Plan eliminado con éxito", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ListPlanes();
+                    
+                
+            }
+            else
+                MessageBox.Show("Por favor seleccione una fila", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+        }
     }
 }

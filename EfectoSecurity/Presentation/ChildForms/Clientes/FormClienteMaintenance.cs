@@ -30,6 +30,7 @@ namespace Presentation.ChildForms.Clientes
         private bool modify;
         private string clienteId;
         private readonly string urlApi = Properties.Settings.Default.ApiEfGym;
+        private readonly string sucursalProp = Properties.Settings.Default.Sucursal;
 
         public FormClienteMaintenance()
         {
@@ -59,7 +60,6 @@ namespace Presentation.ChildForms.Clientes
             }
             
             ModelToFill();
-            txtName.Enabled = false;
 
         }
 
@@ -109,6 +109,7 @@ namespace Presentation.ChildForms.Clientes
             txtName.Text = cltModel.NombreCliente;
             txtPlanActual.Text = cltModel.PlanActual;
             txtTelefono.Text = cltModel.NumeroTelefono;
+            lblSucursal.Text = cltModel.Sucursal;
             dateVencimiento.Value = DateTime.Parse( cltModel.FechaVencimiento,CultureInfo.InvariantCulture, DateTimeStyles.AdjustToUniversal);
             cmbEntrenador.Text = cltModel.EntrenadorActual;
             DateTime now = DateTime.Now;
@@ -131,6 +132,8 @@ namespace Presentation.ChildForms.Clientes
             cltModel.NumeroTelefono = txtTelefono.Text;
             cltModel.PlanActual = txtPlanActual.Text;
             cltModel.TotalPagado = txtPago.Text;
+            //cltModel.PlanEntrenador=txtPlanActual.Text; //Plan del Entrenador
+            cltModel.Sucursal = sucursalProp;
         }
 
         /// <summary>
@@ -150,7 +153,7 @@ namespace Presentation.ChildForms.Clientes
                         result = await cltModel.ModifyClient(urlApi);
                         if (result > 0)
                         {
-                            MessageBox.Show("Usuario actualizado con éxito", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("Cliente actualizado con éxito", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             this.DialogResult = DialogResult.OK;
                             this.Close();
                         }
@@ -202,18 +205,18 @@ namespace Presentation.ChildForms.Clientes
             if (result == DialogResult.OK)
             {
                 dateVencimiento.BackColor = Color.LightGray;
-                if (profileIs)//Si viene de Editar
-                {
+                //if (profileIs)//Si viene de Editar
+                //{
 
-                    DateTime now = DateTime.Now;
-                    DateTime ven = DateTime.Parse(txtVencimiento.Text);
-                    TimeSpan difFechas = ven - now;
-                    DateTime fv = DateTime.Parse(dateVencimiento.Text);
-                    fv = fv.AddDays(difFechas.Days+1);
-                    dateVencimiento.Text = fv.ToShortDateString();
-                }
-                else
-                    dateVencimiento.Text = txtVencimiento.Text;
+                //    DateTime now = DateTime.Now;
+                //    DateTime ven = DateTime.Parse(txtVencimiento.Text);
+                //    TimeSpan difFechas = ven - now;
+                //    DateTime fv = DateTime.Parse(dateVencimiento.Text);
+                //    fv = fv.AddDays(difFechas.Days+1);
+                //    dateVencimiento.Text = fv.ToShortDateString();
+                //}
+                //else
+                dateVencimiento.Text = txtVencimiento.Text;
                 cltModel.EditVigencia = false;
                 HideOrShowFields(true);
                 dateVencimiento.Enabled = true;

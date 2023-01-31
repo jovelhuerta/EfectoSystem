@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static DevExpress.XtraEditors.Mask.MaskSettings;
 
 namespace Presentation.ChildForms.Clientes
 {
@@ -68,7 +69,7 @@ namespace Presentation.ChildForms.Clientes
             }
             if (dataGridView1.SelectedCells.Count > 1)
             {
-                var userDM = await cltModel.GetClientByNum(urlApi, (string)dataGridView1.CurrentRow.Cells[2].Value);//Obtener ID del usuario y buscar usando el método GetUser(id).
+                var userDM = await cltModel.GetClientByNum(urlApi, (string)dataGridView1.CurrentRow.Cells[0].Value);//Obtener ID del usuario y buscar usando el método GetUser(id).
                 if (userDM != null)
                 {
                     var userForm = new FormClienteMaintenance(userDM, false);
@@ -83,6 +84,14 @@ namespace Presentation.ChildForms.Clientes
             }
             else
                 MessageBox.Show("Por favor seleccione una fila", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+
+        private async void btnRemove_Click(object sender, EventArgs e)
+        {
+            var dom = await cltModel.CleanClients(urlApi);
+            MessageBox.Show("Limpieza de Clientes no renovados ha finalizado exitosamente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                GetAllClients();
+            
         }
     }
 }

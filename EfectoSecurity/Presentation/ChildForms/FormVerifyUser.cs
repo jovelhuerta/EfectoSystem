@@ -145,6 +145,7 @@ namespace Presentation.ChildForms
             sucursalModel.Tipo = txtTypeSucursal.Text;
             sucursalModel.Activo = true;
             int res = await sucursalModel.CreateSucursal(urlApi);
+            res = await sucursalModel.SetSucursalToClients(urlApi);
             return 1;
         }
 

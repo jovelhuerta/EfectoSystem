@@ -58,6 +58,18 @@ namespace Domain.Configure
                 (url, "Sucursales/InsertSucursal", mod);
         }
 
+        public async Task<int> SetSucursalToClients(string url)
+        {
+            SucursalModel mod = this;
+            return await peticiones.MethodPostBody<SucursalModel>
+                (url, "Sucursales/SetSucursales", mod);
+        }
+
+        /// <summary>
+        /// Metodo que obtiene todas las sucursales
+        /// </summary>
+        /// <param name="url"></param>
+        /// <returns></returns>
         public IEnumerable<SucursalModel> GetAllSucursal(string url)
         {
             string s = peticiones.MethodHtt(url + "Sucursales/GetAllSucursales", null, "GET");
