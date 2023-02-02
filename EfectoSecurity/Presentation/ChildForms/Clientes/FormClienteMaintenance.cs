@@ -16,6 +16,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Common.Cache;
 using System.Globalization;
+using DevExpress.XtraPrinting.Export.Pdf;
 
 namespace Presentation.ChildForms.Clientes
 {
@@ -56,7 +57,9 @@ namespace Presentation.ChildForms.Clientes
             if (isProfile)
             {
                 dateVencimiento.Enabled = true;
+                dateVenciEntr.Enabled = true;
                 cltModel.EditVigencia = true;
+                cltModel.EditVigenciaEntrenador = true;
             }
             
             ModelToFill();
@@ -94,10 +97,20 @@ namespace Presentation.ChildForms.Clientes
             dateVencimiento.Visible = action;
             lblPago.Visible = action;
             txtPago.Visible = action;
+            lblPlanEnt.Visible = action;
+            txtPlanEnt.Visible = action;
+            lblVenEnt.Visible = action;
+            dateVenciEntr.Visible = action;
+            lblUltEnt.Visible = action;
+            txtPagoEnt.Visible = action;
 
             txtPago.Enabled = false;
+            txtPagoEnt.Enabled = false;
             dateVencimiento.Enabled = false;
+            dateVenciEntr.Enabled = false;
+            txtPlanEnt.Enabled = false;
             txtPlanActual.Enabled = false;
+            lblPlanEnt.Enabled = false;
         }
 
         /// <summary>
@@ -111,12 +124,37 @@ namespace Presentation.ChildForms.Clientes
             txtTelefono.Text = cltModel.NumeroTelefono;
             lblSucursal.Text = cltModel.Sucursal;
             dateVencimiento.Value = DateTime.Parse( cltModel.FechaVencimiento,CultureInfo.InvariantCulture, DateTimeStyles.AdjustToUniversal);
+            txtPlanEnt.Text = cltModel.PlanEntrenador;
+            if(cltModel.FechaEntrenador!=null)
+                dateVenciEntr.Value = DateTime.Parse(cltModel.FechaEntrenador, CultureInfo.InvariantCulture, DateTimeStyles.AdjustToUniversal);
             cmbEntrenador.Text = cltModel.EntrenadorActual;
             DateTime now = DateTime.Now;
             DateTime ven = DateTime.Parse(cltModel.FechaVencimiento);
+            
             TimeSpan difFechas = ven - now;
+            
+            lblInfo.Visible = false;
+            lblInfoEnt.Visible = false;
             if (difFechas.Days <= 0)
-                dateVencimiento.CalendarTitleBackColor = Color.Red;
+            {
+                dateVencimiento.CalendarForeColor = Color.Red;
+                lblInfo.Visible = true;
+                lblInfo.Text = "PLAN VENCIDO";
+                lblInfo.ForeColor = Color.Red;
+            }
+            if (cltModel.FechaEntrenador != null)
+            {
+                DateTime venEnt = DateTime.Parse(cltModel.FechaEntrenador);
+                TimeSpan difFechasEnt = venEnt - now;
+                if (difFechasEnt.Days <= 0)
+                {
+                    dateVenciEntr.CalendarForeColor = Color.Red;
+                    lblInfoEnt.Visible = true;
+                    lblInfoEnt.Text = "PLAN VENCIDO";
+                    lblInfoEnt.ForeColor = Color.Red;
+                }
+            }
+                
         }
 
         /// <summary>
@@ -132,7 +170,8 @@ namespace Presentation.ChildForms.Clientes
             cltModel.NumeroTelefono = txtTelefono.Text;
             cltModel.PlanActual = txtPlanActual.Text;
             cltModel.TotalPagado = txtPago.Text;
-            //cltModel.PlanEntrenador=txtPlanActual.Text; //Plan del Entrenador
+            cltModel.PlanEntrenador = txtPlanEnt.Text; //Plan del Entrenador
+            cltModel.FechaEntrenador = dateVenciEntr.Text;
             cltModel.Sucursal = sucursalProp;
         }
 
@@ -199,7 +238,7 @@ namespace Presentation.ChildForms.Clientes
 
         private void btnPlan_Click(object sender, EventArgs e)
         {
-            var userForm = new FormSelectPlan();
+            var userForm = new FormSelectPlan(true);
             AddOwnedForm(userForm);
             DialogResult result = userForm.ShowDialog();
             if (result == DialogResult.OK)
@@ -220,6 +259,32 @@ namespace Presentation.ChildForms.Clientes
                 cltModel.EditVigencia = false;
                 HideOrShowFields(true);
                 dateVencimiento.Enabled = true;
+            }
+        }
+
+        private void btnPlanEntrenador_Click(object sender, EventArgs e)
+        {
+            var userForm = new FormSelectPlan(false);
+            AddOwnedForm(userForm);
+            DialogResult result = userForm.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                dateVenciEntr.BackColor = Color.LightGray;
+                //if (profileIs)//Si viene de Editar
+                //{
+
+                //    DateTime now = DateTime.Now;
+                //    DateTime ven = DateTime.Parse(txtVencimiento.Text);
+                //    TimeSpan difFechas = ven - now;
+                //    DateTime fv = DateTime.Parse(dateVencimiento.Text);
+                //    fv = fv.AddDays(difFechas.Days+1);
+                //    dateVencimiento.Text = fv.ToShortDateString();
+                //}
+                //else
+                dateVenciEntr.Text = txtVencEntr.Text;
+                cltModel.EditVigenciaEntrenador = false;
+                HideOrShowFields(true);
+                dateVenciEntr.Enabled = true;
             }
         }
 
@@ -257,5 +322,6 @@ namespace Presentation.ChildForms.Clientes
 
         #endregion
 
+        
     }
 }

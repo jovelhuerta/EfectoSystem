@@ -451,14 +451,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Domain.dll" size="51200">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Domain.dll" size="56320">
       <assemblyIdentity name="Domain" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>aelhUtc9Q9TnR27aDw7A3bfKkE4Wu7RpWiwHJ9FFBAQ=</dsig:DigestValue>
+        <dsig:DigestValue>l1nw6qTpjBgR930DiXB6d+gWtwQXrcBOaS1k7mSO+Qs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -511,14 +511,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Efecto System.exe" size="991696">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Efecto System.exe" size="1008592">
       <assemblyIdentity name="Efecto System" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3ZuZiVURtwf1Io+eXk9klAjxPt23q4ydEywyABEkN/Q=</dsig:DigestValue>
+        <dsig:DigestValue>AxZfnEaYaa/zqgaenHcl53whAvGqD24KrKmKYX4Ra88=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

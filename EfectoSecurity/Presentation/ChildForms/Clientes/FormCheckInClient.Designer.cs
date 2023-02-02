@@ -55,6 +55,13 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.lblSucursal = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtVencimientoEnt = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtPlanEnt = new System.Windows.Forms.TextBox();
+            this.lblAlertaEnt = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtDiasEnt = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtName
@@ -206,12 +213,11 @@
             // 
             // txtPlan
             // 
-            this.txtPlan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPlan.Enabled = false;
             this.txtPlan.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPlan.Location = new System.Drawing.Point(395, 271);
             this.txtPlan.Name = "txtPlan";
-            this.txtPlan.Size = new System.Drawing.Size(137, 28);
+            this.txtPlan.Size = new System.Drawing.Size(248, 28);
             this.txtPlan.TabIndex = 170;
             // 
             // lblPlan
@@ -337,7 +343,7 @@
             this.lblAlerta.BackColor = System.Drawing.Color.Transparent;
             this.lblAlerta.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAlerta.ForeColor = System.Drawing.Color.DimGray;
-            this.lblAlerta.Location = new System.Drawing.Point(535, 272);
+            this.lblAlerta.Location = new System.Drawing.Point(533, 232);
             this.lblAlerta.Name = "lblAlerta";
             this.lblAlerta.Size = new System.Drawing.Size(186, 26);
             this.lblAlerta.TabIndex = 180;
@@ -386,11 +392,98 @@
             this.lblSucursal.TabIndex = 183;
             this.lblSucursal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.DimGray;
+            this.label3.Location = new System.Drawing.Point(3, 319);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(186, 29);
+            this.label3.TabIndex = 184;
+            this.label3.Text = "Plan Entrenador";
+            // 
+            // txtVencimientoEnt
+            // 
+            this.txtVencimientoEnt.Enabled = false;
+            this.txtVencimientoEnt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVencimientoEnt.Location = new System.Drawing.Point(196, 321);
+            this.txtVencimientoEnt.Name = "txtVencimientoEnt";
+            this.txtVencimientoEnt.Size = new System.Drawing.Size(137, 28);
+            this.txtVencimientoEnt.TabIndex = 185;
+            // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.DimGray;
+            this.label5.Location = new System.Drawing.Point(339, 319);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(61, 29);
+            this.label5.TabIndex = 186;
+            this.label5.Text = "Plan";
+            // 
+            // txtPlanEnt
+            // 
+            this.txtPlanEnt.Enabled = false;
+            this.txtPlanEnt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPlanEnt.Location = new System.Drawing.Point(395, 321);
+            this.txtPlanEnt.Name = "txtPlanEnt";
+            this.txtPlanEnt.Size = new System.Drawing.Size(248, 28);
+            this.txtPlanEnt.TabIndex = 187;
+            // 
+            // lblAlertaEnt
+            // 
+            this.lblAlertaEnt.AutoSize = true;
+            this.lblAlertaEnt.BackColor = System.Drawing.Color.Transparent;
+            this.lblAlertaEnt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAlertaEnt.ForeColor = System.Drawing.Color.DimGray;
+            this.lblAlertaEnt.Location = new System.Drawing.Point(505, 352);
+            this.lblAlertaEnt.Name = "lblAlertaEnt";
+            this.lblAlertaEnt.Size = new System.Drawing.Size(186, 26);
+            this.lblAlertaEnt.TabIndex = 188;
+            this.lblAlertaEnt.Text = "Registro Entradas";
+            this.lblAlertaEnt.Visible = false;
+            // 
+            // label7
+            // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.DimGray;
+            this.label7.Location = new System.Drawing.Point(791, 321);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(165, 29);
+            this.label7.TabIndex = 189;
+            this.label7.Text = "Dias Faltantes";
+            // 
+            // txtDiasEnt
+            // 
+            this.txtDiasEnt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtDiasEnt.Enabled = false;
+            this.txtDiasEnt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDiasEnt.Location = new System.Drawing.Point(963, 319);
+            this.txtDiasEnt.Name = "txtDiasEnt";
+            this.txtDiasEnt.Size = new System.Drawing.Size(51, 28);
+            this.txtDiasEnt.TabIndex = 190;
+            // 
             // FormCheckInClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1026, 446);
+            this.Controls.Add(this.txtDiasEnt);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblAlertaEnt);
+            this.Controls.Add(this.txtPlanEnt);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtVencimientoEnt);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.lblSucursal);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnAdd);
@@ -457,5 +550,12 @@
         internal System.Windows.Forms.Button btnAdd;
         internal System.Windows.Forms.Label label2;
         internal System.Windows.Forms.Label lblSucursal;
+        internal System.Windows.Forms.Label label3;
+        internal System.Windows.Forms.TextBox txtVencimientoEnt;
+        internal System.Windows.Forms.Label label5;
+        internal System.Windows.Forms.TextBox txtPlanEnt;
+        internal System.Windows.Forms.Label lblAlertaEnt;
+        internal System.Windows.Forms.Label label7;
+        internal System.Windows.Forms.TextBox txtDiasEnt;
     }
 }

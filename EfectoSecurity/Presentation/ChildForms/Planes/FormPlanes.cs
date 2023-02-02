@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Presentation.ChildForms
+namespace Presentation.ChildForms.Planes
 {
     public partial class FormPlanes : Form
     {

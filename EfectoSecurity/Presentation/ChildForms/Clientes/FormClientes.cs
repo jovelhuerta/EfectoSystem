@@ -35,7 +35,15 @@ namespace Presentation.ChildForms.Clientes
             dataGridView1.Columns["FingerPrint"].Visible = false;
             dataGridView1.Columns["FechaIngreso"].Visible = false;
             dataGridView1.Columns["TotalPagado"].Visible = false;
+            dataGridView1.Columns["EditVigencia"].Visible = false;
+            dataGridView1.Columns["EditVigenciaEntrenador"].Visible = false;
+            dataGridView1.Columns["NumeroCliente"].Visible = false;
+            setColorToGrid();
+            setColorToGrid();
+        }
 
+        private void setColorToGrid()
+        {
             string data = string.Empty;
             int indexOfYourColumn = 5;
             foreach (DataGridViewRow row in dataGridView1.Rows)
@@ -44,10 +52,9 @@ namespace Presentation.ChildForms.Clientes
                 DateTime now = DateTime.Now;
                 DateTime ven = DateTime.Parse(data);
                 TimeSpan difFechas = ven - now;
-                if (difFechas.Days < 0)
+                if (difFechas.Days <= 0)
                     row.DefaultCellStyle.ForeColor = Color.Red;
             }
-                
         }
 
         private void btnAdd_Click(object sender, EventArgs e)

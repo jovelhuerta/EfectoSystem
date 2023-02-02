@@ -239,8 +239,6 @@ D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\
 D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormVerify.resources
 D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormHorarioMaintenance.resources
 D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormHorarios.resources
-D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormPlanes.resources
-D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.FormPlanMaintenance.resources
 D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormUserMaintenance.resources
 D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormUserProfile.resources
 D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Usuarios.FormUsers.resources
@@ -259,3 +257,7 @@ D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\
 D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.csproj.CopyComplete
 D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Efecto System.exe
 D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Efecto System.pdb
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Planes.FormPlanEntrenadorMaintenance.resources
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Planes.FormPlanesEntrenador.resources
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Planes.FormPlanes.resources
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Planes.FormPlanMaintenance.resources

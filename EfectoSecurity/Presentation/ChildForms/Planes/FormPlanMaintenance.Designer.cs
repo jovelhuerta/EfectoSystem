@@ -1,4 +1,4 @@
-﻿namespace Presentation.ChildForms
+﻿namespace Presentation.ChildForms.Planes
 {
     partial class FormPlanMaintenance
     {

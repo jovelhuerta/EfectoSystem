@@ -49,6 +49,7 @@
     <Compile Include="Clients\ClientModel.cs" />
     <Compile Include="Clients\HistoryPlanesClientesModel.cs" />
     <Compile Include="Configure\HorariosModel.cs" />
+    <Compile Include="Configure\PlanesEntrenadorModel.cs" />
     <Compile Include="Configure\PlanesModel.cs" />
     <Compile Include="Configure\PuestosModels.cs" />
     <Compile Include="Configure\RolesModels.cs" />

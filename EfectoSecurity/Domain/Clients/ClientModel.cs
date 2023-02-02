@@ -25,6 +25,8 @@ namespace Domain.Clients
         private bool _editVigencia;
         private string _sucursal;
         private string _planEntrenador;
+        private string _fechaEntrenador;
+        private bool _editVigenciaEntrenador;
         private Cliente _cliente;
         private PeticionesHttp peticiones = new PeticionesHttp();
 
@@ -35,7 +37,7 @@ namespace Domain.Clients
         }
 
         public ClientModel(string id, string nombreCliente, string numeroCliente, string numeroTelefono, string fechaIngreso, string fechaVencimiento, string planActual,
-                            byte[] fingerPrint, bool activo, string entrenadorActual, string idUsuario, string totalPagado, string sucursal, string planEntrenador)
+                            byte[] fingerPrint, bool activo, string entrenadorActual, string idUsuario, string totalPagado, string sucursal, string planEntrenador, string fechaEntrenador )
         {
             _id = id;
             _nombreCliente = nombreCliente;
@@ -51,6 +53,7 @@ namespace Domain.Clients
             _totalPagado = totalPagado;
             _sucursal = sucursal;
             _planEntrenador = planEntrenador;
+            _fechaEntrenador = fechaEntrenador;
         }
 
         #region -> Validaciones de metodos Publicos
@@ -74,6 +77,8 @@ namespace Domain.Clients
         public bool EditVigencia { get { return _editVigencia; } set { _editVigencia = value; } }
         public string Sucursal { get { return _sucursal; } set { _sucursal = value; } }
         public string PlanEntrenador { get { return _planEntrenador; } set { _planEntrenador = value; } }
+        public string FechaEntrenador { get { return _fechaEntrenador; } set { _fechaEntrenador = value; } }
+        public bool EditVigenciaEntrenador { get { return _editVigenciaEntrenador; }set { _editVigenciaEntrenador = value; } }
         #endregion
 
 
@@ -175,5 +180,6 @@ namespace Domain.Clients
         public string totalPagado { get; set; }
         public string sucursal { get; set; }
         public string planEntrenador { get; set; }
+        public string fechaEntrenador { get; set; }
     }
 }

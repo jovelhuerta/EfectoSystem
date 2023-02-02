@@ -3,6 +3,7 @@ using Common.Cache;
 using Domain.User;
 using Presentation.ChildForms;
 using Presentation.ChildForms.Clientes;
+using Presentation.ChildForms.Planes;
 using Presentation.ChildForms.Usuarios;
 //using Presentation.ChildForms;
 using Presentation.Helpers;
@@ -416,12 +417,15 @@ namespace Presentation
             OpenChildForm<FormHistorialEntradas>(sender);
         }
 
+        private void btnPlanEntrenador_Click(object sender, EventArgs e)
+        {
+            OpenChildForm<FormPlanesEntrenador>(sender);
+        }
 
 
         #endregion
 
         #endregion
 
-        
     }
 }

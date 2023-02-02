@@ -14,14 +14,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Efecto System.exe.manifest" size="36649">
+    <dependentAssembly dependencyType="install" codebase="Efecto System.exe.manifest" size="36650">
       <assemblyIdentity name="Efecto System.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CnlE+72qhKHmjEgAPQGYrv+7D4QD4DePIOVVedyW0xs=</dsig:DigestValue>
+        <dsig:DigestValue>IHyJ6px9D70ncVOPLJc7SSMGl1cnJ6UmyzOyfhGTIE8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
