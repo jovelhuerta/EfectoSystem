@@ -8,20 +8,20 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/Efecto%20System.application" />
+    <deploymentProvider codebase="https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/develop/published/Efecto%20System.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Efecto System.exe.manifest" size="36648">
+    <dependentAssembly dependencyType="install" codebase="Efecto System.exe.manifest" size="36650">
       <assemblyIdentity name="Efecto System.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>EawRjVoYDtG7li0ziiqVKvFzxFsfodACf21nHDXuZPc=</dsig:DigestValue>
+        <dsig:DigestValue>S4gCl0bCMSPj/Sp0zk5v08LhH282chTany2UZ2uuJLw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

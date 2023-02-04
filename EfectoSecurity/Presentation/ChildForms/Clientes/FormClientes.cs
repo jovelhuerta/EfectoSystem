@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static DevExpress.XtraEditors.Mask.MaskSettings;
 
 namespace Presentation.ChildForms.Clientes
 {
@@ -34,7 +35,15 @@ namespace Presentation.ChildForms.Clientes
             dataGridView1.Columns["FingerPrint"].Visible = false;
             dataGridView1.Columns["FechaIngreso"].Visible = false;
             dataGridView1.Columns["TotalPagado"].Visible = false;
+            dataGridView1.Columns["EditVigencia"].Visible = false;
+            dataGridView1.Columns["EditVigenciaEntrenador"].Visible = false;
+            dataGridView1.Columns["NumeroCliente"].Visible = false;
+            setColorToGrid();
+            setColorToGrid();
+        }
 
+        private void setColorToGrid()
+        {
             string data = string.Empty;
             int indexOfYourColumn = 5;
             foreach (DataGridViewRow row in dataGridView1.Rows)
@@ -43,10 +52,9 @@ namespace Presentation.ChildForms.Clientes
                 DateTime now = DateTime.Now;
                 DateTime ven = DateTime.Parse(data);
                 TimeSpan difFechas = ven - now;
-                if (difFechas.Days < 0)
+                if (difFechas.Days <= 0)
                     row.DefaultCellStyle.ForeColor = Color.Red;
             }
-                
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -68,7 +76,7 @@ namespace Presentation.ChildForms.Clientes
             }
             if (dataGridView1.SelectedCells.Count > 1)
             {
-                var userDM = await cltModel.GetClientByNum(urlApi, (string)dataGridView1.CurrentRow.Cells[2].Value);//Obtener ID del usuario y buscar usando el método GetUser(id).
+                var userDM = await cltModel.GetClientByNum(urlApi, (string)dataGridView1.CurrentRow.Cells[0].Value);//Obtener ID del usuario y buscar usando el método GetUser(id).
                 if (userDM != null)
                 {
                     var userForm = new FormClienteMaintenance(userDM, false);
@@ -83,6 +91,14 @@ namespace Presentation.ChildForms.Clientes
             }
             else
                 MessageBox.Show("Por favor seleccione una fila", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+
+        private async void btnRemove_Click(object sender, EventArgs e)
+        {
+            var dom = await cltModel.CleanClients(urlApi);
+            MessageBox.Show("Limpieza de Clientes no renovados ha finalizado exitosamente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                GetAllClients();
+            
         }
     }
 }

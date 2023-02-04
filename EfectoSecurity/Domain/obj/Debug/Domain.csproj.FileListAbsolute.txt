@@ -20,3 +20,14 @@ D:\Documentos\Proyectos\EfectoSecurity\Domain\obj\Debug\Domain.csproj.CoreCompil
 D:\Documentos\Proyectos\EfectoSecurity\Domain\obj\Debug\Domain.csproj.CopyComplete
 D:\Documentos\Proyectos\EfectoSecurity\Domain\obj\Debug\Domain.dll
 D:\Documentos\Proyectos\EfectoSecurity\Domain\obj\Debug\Domain.pdb
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Domain\bin\Debug\Domain.dll
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Domain\bin\Debug\Domain.pdb
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Domain\bin\Debug\Common.dll
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Domain\bin\Debug\Newtonsoft.Json.dll
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Domain\bin\Debug\Common.pdb
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Domain\bin\Debug\Newtonsoft.Json.xml
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Domain\obj\Debug\Domain.csproj.AssemblyReference.cache
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Domain\obj\Debug\Domain.csproj.CopyComplete
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Domain\obj\Debug\Domain.dll
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Domain\obj\Debug\Domain.pdb
