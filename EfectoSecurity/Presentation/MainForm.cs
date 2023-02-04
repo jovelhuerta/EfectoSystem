@@ -61,7 +61,8 @@ namespace Presentation
                 panelMedios.Visible = false;
                 btnEmpleados.Visible = false;
                 panelEmpleados.Visible = false;
-
+                btnHistPlanes.Visible = false;
+                btnHstPlanEntrenador.Visible = false;
             }
         }
         #endregion
@@ -251,7 +252,7 @@ namespace Presentation
 
         private void ActivateButton(Button menuButton)
         {
-            menuButton.ForeColor = Color.FromArgb(0, 100, 182);
+            menuButton.ForeColor = Color.FromArgb(171, 139, 9);
             //menuButton.BackColor = panelMenuHeader.BackColor;
         }
         private void DeactivateButton(Button menuButton)
@@ -385,6 +386,10 @@ namespace Presentation
         {
             OpenChildForm<FormHistorialPlanes>(sender);
         }
+        private void btnHstPlanEntrenador_Click(object sender, EventArgs e)
+        {
+            OpenChildForm<FormHistorialPlanesEntrenador >(sender);
+        }
 
         private void btnPlanes_Click(object sender, EventArgs e)
         {
@@ -427,5 +432,6 @@ namespace Presentation
 
         #endregion
 
+       
     }
 }

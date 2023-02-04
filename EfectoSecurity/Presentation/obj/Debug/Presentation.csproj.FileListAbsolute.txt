@@ -261,3 +261,4 @@ D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\
 D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Planes.FormPlanesEntrenador.resources
 D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Planes.FormPlanes.resources
 D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Planes.FormPlanMaintenance.resources
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Presentation\obj\Debug\Presentation.ChildForms.Clientes.FormHistorialPlanesEntrenador.resources

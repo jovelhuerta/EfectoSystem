@@ -56,6 +56,23 @@ namespace Domain.Clients
             return MapModel(results);
         }
 
+        /// <summary>
+        /// Obtenemos el Historial de los planes inscritos para los entrenadores
+        /// </summary>
+        /// <param name="url"></param>
+        /// <param name="FInicio"></param>
+        /// <param name="FFinal"></param>
+        /// <param name="sucursal"></param>
+        /// <returns></returns>
+        public IEnumerable<HistoryPlanesClientesModel> GetHisoryByRangeForEntrenadores(string url, string FInicio, string FFinal
+            , string sucursal)
+        {
+            string result = peticiones.MethodHtt(url + "Clientes/GetHistorialPlanesEntrenador/"
+                                                                     + FInicio + "/" + FFinal + "/" + sucursal, null);
+            var results = JsonConvert.DeserializeObject<List<HistoryPlan>>(result);
+            return MapModel(results);
+        }
+
         private HistoryPlanesClientesModel  MapModel(HistoryPlan entity)
         {//Mapear un solo objeto.
             return new HistoryPlanesClientesModel()

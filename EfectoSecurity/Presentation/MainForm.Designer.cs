@@ -40,6 +40,7 @@
             this.btnEmpleados = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
             this.panelMedios = new System.Windows.Forms.Panel();
+            this.btnPlanEntrenador = new System.Windows.Forms.Button();
             this.btnHorarios = new System.Windows.Forms.Button();
             this.btnPlanes = new System.Windows.Forms.Button();
             this.btnHistory = new System.Windows.Forms.Button();
@@ -62,7 +63,7 @@
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.btnPlanEntrenador = new System.Windows.Forms.Button();
+            this.btnHstPlanEntrenador = new System.Windows.Forms.Button();
             this.PanelClientArea.SuspendLayout();
             this.panelDesktop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -101,7 +102,7 @@
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(392, 114);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(230, 240);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -169,8 +170,8 @@
             // 
             this.panelEmpleados.Controls.Add(this.btnHistoryEntradas);
             this.panelEmpleados.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelEmpleados.Location = new System.Drawing.Point(0, 629);
-            this.panelEmpleados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelEmpleados.Location = new System.Drawing.Point(0, 682);
+            this.panelEmpleados.Margin = new System.Windows.Forms.Padding(2);
             this.panelEmpleados.Name = "panelEmpleados";
             this.panelEmpleados.Size = new System.Drawing.Size(213, 52);
             this.panelEmpleados.TabIndex = 35;
@@ -185,7 +186,7 @@
             this.btnHistoryEntradas.ForeColor = System.Drawing.SystemColors.Control;
             this.btnHistoryEntradas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHistoryEntradas.Location = new System.Drawing.Point(0, 0);
-            this.btnHistoryEntradas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHistoryEntradas.Margin = new System.Windows.Forms.Padding(2);
             this.btnHistoryEntradas.Name = "btnHistoryEntradas";
             this.btnHistoryEntradas.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnHistoryEntradas.Size = new System.Drawing.Size(213, 43);
@@ -206,8 +207,8 @@
             this.btnEmpleados.ForeColor = System.Drawing.SystemColors.Control;
             this.btnEmpleados.Image = ((System.Drawing.Image)(resources.GetObject("btnEmpleados.Image")));
             this.btnEmpleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmpleados.Location = new System.Drawing.Point(0, 568);
-            this.btnEmpleados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEmpleados.Location = new System.Drawing.Point(0, 621);
+            this.btnEmpleados.Margin = new System.Windows.Forms.Padding(2);
             this.btnEmpleados.Name = "btnEmpleados";
             this.btnEmpleados.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnEmpleados.Size = new System.Drawing.Size(213, 61);
@@ -227,8 +228,8 @@
             this.btnLogout.ForeColor = System.Drawing.SystemColors.Control;
             this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
             this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(0, 681);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLogout.Location = new System.Drawing.Point(0, 734);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnLogout.Size = new System.Drawing.Size(213, 45);
@@ -244,11 +245,32 @@
             this.panelMedios.Controls.Add(this.btnHorarios);
             this.panelMedios.Controls.Add(this.btnPlanes);
             this.panelMedios.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelMedios.Location = new System.Drawing.Point(0, 434);
-            this.panelMedios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelMedios.Location = new System.Drawing.Point(0, 487);
+            this.panelMedios.Margin = new System.Windows.Forms.Padding(2);
             this.panelMedios.Name = "panelMedios";
             this.panelMedios.Size = new System.Drawing.Size(213, 134);
             this.panelMedios.TabIndex = 30;
+            // 
+            // btnPlanEntrenador
+            // 
+            this.btnPlanEntrenador.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPlanEntrenador.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPlanEntrenador.FlatAppearance.BorderSize = 0;
+            this.btnPlanEntrenador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPlanEntrenador.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlanEntrenador.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnPlanEntrenador.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPlanEntrenador.Location = new System.Drawing.Point(0, 86);
+            this.btnPlanEntrenador.Margin = new System.Windows.Forms.Padding(2);
+            this.btnPlanEntrenador.Name = "btnPlanEntrenador";
+            this.btnPlanEntrenador.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnPlanEntrenador.Size = new System.Drawing.Size(213, 43);
+            this.btnPlanEntrenador.TabIndex = 33;
+            this.btnPlanEntrenador.Text = "   Planes Entrenador";
+            this.btnPlanEntrenador.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPlanEntrenador.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPlanEntrenador.UseVisualStyleBackColor = true;
+            this.btnPlanEntrenador.Click += new System.EventHandler(this.btnPlanEntrenador_Click);
             // 
             // btnHorarios
             // 
@@ -260,7 +282,7 @@
             this.btnHorarios.ForeColor = System.Drawing.SystemColors.Control;
             this.btnHorarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHorarios.Location = new System.Drawing.Point(0, 43);
-            this.btnHorarios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHorarios.Margin = new System.Windows.Forms.Padding(2);
             this.btnHorarios.Name = "btnHorarios";
             this.btnHorarios.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnHorarios.Size = new System.Drawing.Size(213, 43);
@@ -281,7 +303,7 @@
             this.btnPlanes.ForeColor = System.Drawing.SystemColors.Control;
             this.btnPlanes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPlanes.Location = new System.Drawing.Point(0, 0);
-            this.btnPlanes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPlanes.Margin = new System.Windows.Forms.Padding(2);
             this.btnPlanes.Name = "btnPlanes";
             this.btnPlanes.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnPlanes.Size = new System.Drawing.Size(213, 43);
@@ -302,8 +324,8 @@
             this.btnHistory.ForeColor = System.Drawing.SystemColors.Control;
             this.btnHistory.Image = ((System.Drawing.Image)(resources.GetObject("btnHistory.Image")));
             this.btnHistory.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHistory.Location = new System.Drawing.Point(0, 373);
-            this.btnHistory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHistory.Location = new System.Drawing.Point(0, 426);
+            this.btnHistory.Margin = new System.Windows.Forms.Padding(2);
             this.btnHistory.Name = "btnHistory";
             this.btnHistory.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnHistory.Size = new System.Drawing.Size(213, 61);
@@ -315,14 +337,15 @@
             // 
             // panelClientes
             // 
+            this.panelClientes.Controls.Add(this.btnHstPlanEntrenador);
             this.panelClientes.Controls.Add(this.btnHistPlanes);
             this.panelClientes.Controls.Add(this.btnCheckCliente);
             this.panelClientes.Controls.Add(this.btnAllClientes);
             this.panelClientes.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelClientes.Location = new System.Drawing.Point(0, 227);
-            this.panelClientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelClientes.Margin = new System.Windows.Forms.Padding(2);
             this.panelClientes.Name = "panelClientes";
-            this.panelClientes.Size = new System.Drawing.Size(213, 146);
+            this.panelClientes.Size = new System.Drawing.Size(213, 199);
             this.panelClientes.TabIndex = 26;
             // 
             // btnHistPlanes
@@ -335,7 +358,7 @@
             this.btnHistPlanes.ForeColor = System.Drawing.SystemColors.Control;
             this.btnHistPlanes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHistPlanes.Location = new System.Drawing.Point(0, 93);
-            this.btnHistPlanes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHistPlanes.Margin = new System.Windows.Forms.Padding(2);
             this.btnHistPlanes.Name = "btnHistPlanes";
             this.btnHistPlanes.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnHistPlanes.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -357,7 +380,7 @@
             this.btnCheckCliente.ForeColor = System.Drawing.SystemColors.Control;
             this.btnCheckCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCheckCliente.Location = new System.Drawing.Point(0, 45);
-            this.btnCheckCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCheckCliente.Margin = new System.Windows.Forms.Padding(2);
             this.btnCheckCliente.Name = "btnCheckCliente";
             this.btnCheckCliente.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnCheckCliente.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -379,7 +402,7 @@
             this.btnAllClientes.ForeColor = System.Drawing.SystemColors.Control;
             this.btnAllClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAllClientes.Location = new System.Drawing.Point(0, 0);
-            this.btnAllClientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAllClientes.Margin = new System.Windows.Forms.Padding(2);
             this.btnAllClientes.Name = "btnAllClientes";
             this.btnAllClientes.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnAllClientes.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -402,7 +425,7 @@
             this.btnPacients.Image = ((System.Drawing.Image)(resources.GetObject("btnPacients.Image")));
             this.btnPacients.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPacients.Location = new System.Drawing.Point(0, 169);
-            this.btnPacients.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPacients.Margin = new System.Windows.Forms.Padding(2);
             this.btnPacients.Name = "btnPacients";
             this.btnPacients.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnPacients.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -424,7 +447,7 @@
             this.btnUsers.Image = ((System.Drawing.Image)(resources.GetObject("btnUsers.Image")));
             this.btnUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnUsers.Location = new System.Drawing.Point(0, 115);
-            this.btnUsers.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUsers.Margin = new System.Windows.Forms.Padding(2);
             this.btnUsers.Name = "btnUsers";
             this.btnUsers.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnUsers.Size = new System.Drawing.Size(213, 54);
@@ -561,6 +584,7 @@
             // 
             // btnMinimize
             // 
+            this.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnMinimize.FlatAppearance.BorderSize = 0;
             this.btnMinimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
@@ -576,6 +600,7 @@
             // 
             // btnMaximize
             // 
+            this.btnMaximize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximize.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnMaximize.FlatAppearance.BorderSize = 0;
             this.btnMaximize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSlateBlue;
@@ -591,6 +616,7 @@
             // 
             // btnClose
             // 
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
@@ -604,26 +630,27 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // btnPlanEntrenador
+            // btnHstPlanEntrenador
             // 
-            this.btnPlanEntrenador.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPlanEntrenador.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPlanEntrenador.FlatAppearance.BorderSize = 0;
-            this.btnPlanEntrenador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPlanEntrenador.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlanEntrenador.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnPlanEntrenador.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPlanEntrenador.Location = new System.Drawing.Point(0, 86);
-            this.btnPlanEntrenador.Margin = new System.Windows.Forms.Padding(2);
-            this.btnPlanEntrenador.Name = "btnPlanEntrenador";
-            this.btnPlanEntrenador.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnPlanEntrenador.Size = new System.Drawing.Size(213, 43);
-            this.btnPlanEntrenador.TabIndex = 33;
-            this.btnPlanEntrenador.Text = "   Planes Entrenador";
-            this.btnPlanEntrenador.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPlanEntrenador.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnPlanEntrenador.UseVisualStyleBackColor = true;
-            this.btnPlanEntrenador.Click += new System.EventHandler(this.btnPlanEntrenador_Click);
+            this.btnHstPlanEntrenador.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHstPlanEntrenador.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnHstPlanEntrenador.FlatAppearance.BorderSize = 0;
+            this.btnHstPlanEntrenador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHstPlanEntrenador.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHstPlanEntrenador.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnHstPlanEntrenador.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHstPlanEntrenador.Location = new System.Drawing.Point(0, 141);
+            this.btnHstPlanEntrenador.Margin = new System.Windows.Forms.Padding(2);
+            this.btnHstPlanEntrenador.Name = "btnHstPlanEntrenador";
+            this.btnHstPlanEntrenador.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnHstPlanEntrenador.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnHstPlanEntrenador.Size = new System.Drawing.Size(213, 48);
+            this.btnHstPlanEntrenador.TabIndex = 25;
+            this.btnHstPlanEntrenador.Text = "   Historial Entrenador";
+            this.btnHstPlanEntrenador.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHstPlanEntrenador.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnHstPlanEntrenador.UseVisualStyleBackColor = true;
+            this.btnHstPlanEntrenador.Click += new System.EventHandler(this.btnHstPlanEntrenador_Click);
             // 
             // MainForm
             // 
@@ -690,6 +717,7 @@
         internal System.Windows.Forms.Button btnHistoryEntradas;
         internal System.Windows.Forms.Button btnHistPlanes;
         internal System.Windows.Forms.Button btnPlanEntrenador;
+        internal System.Windows.Forms.Button btnHstPlanEntrenador;
     }
 }
 

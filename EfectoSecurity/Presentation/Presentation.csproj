@@ -23,12 +23,12 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/develop/published/</InstallUrl>
-    <UpdateUrl>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/develop/published/</UpdateUrl>
+    <InstallUrl>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/</UpdateUrl>
     <PublisherName>JOVEL S.A.S</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -170,6 +170,12 @@
     <Compile Include="ChildForms\Clientes\FormHistorialPlanes.Designer.cs">
       <DependentUpon>FormHistorialPlanes.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChildForms\Clientes\FormHistorialPlanesEntrenador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\Clientes\FormHistorialPlanesEntrenador.Designer.cs">
+      <DependentUpon>FormHistorialPlanesEntrenador.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChildForms\Clientes\FormSelectPlan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -306,6 +312,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\Clientes\FormHistorialPlanes.resx">
       <DependentUpon>FormHistorialPlanes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\Clientes\FormHistorialPlanesEntrenador.resx">
+      <DependentUpon>FormHistorialPlanesEntrenador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\Clientes\FormSelectPlan.resx">
       <DependentUpon>FormSelectPlan.cs</DependentUpon>
