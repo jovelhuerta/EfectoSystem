@@ -28,18 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.lblDateinicio = new System.Windows.Forms.Label();
-            this.FechaInicio = new Presentation.Helpers.CustomDate();
             this.lblDateFin = new System.Windows.Forms.Label();
-            this.Fechafinal = new Presentation.Helpers.CustomDate();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cmbSucursales = new System.Windows.Forms.ComboBox();
+            this.Fechafinal = new Presentation.Helpers.CustomDate();
+            this.FechaInicio = new Presentation.Helpers.CustomDate();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,108 +58,71 @@
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(99)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(63)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(99)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(68)))), ((int)(((byte)(63)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView1.ColumnHeadersHeight = 40;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(238)))), ((int)(((byte)(246)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.DimGray;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(238)))), ((int)(((byte)(246)))));
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.DimGray;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.GridColor = System.Drawing.Color.LightGray;
             this.dataGridView1.Location = new System.Drawing.Point(17, 81);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(238)))), ((int)(((byte)(246)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(238)))), ((int)(((byte)(246)))));
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridView1.RowHeadersWidth = 40;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(251)))), ((int)(((byte)(251)))));
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(251)))), ((int)(((byte)(251)))));
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle12;
             this.dataGridView1.RowTemplate.Height = 40;
             this.dataGridView1.Size = new System.Drawing.Size(837, 450);
             this.dataGridView1.TabIndex = 131;
             // 
             // lblDateinicio
             // 
-            this.lblDateinicio.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDateinicio.AutoSize = true;
             this.lblDateinicio.BackColor = System.Drawing.Color.Transparent;
             this.lblDateinicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDateinicio.ForeColor = System.Drawing.Color.DimGray;
-            this.lblDateinicio.Location = new System.Drawing.Point(5, 35);
+            this.lblDateinicio.Location = new System.Drawing.Point(12, 9);
             this.lblDateinicio.Name = "lblDateinicio";
             this.lblDateinicio.Size = new System.Drawing.Size(82, 16);
             this.lblDateinicio.TabIndex = 136;
             this.lblDateinicio.Text = "Fecha Inicio:";
             // 
-            // FechaInicio
-            // 
-            this.FechaInicio.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.FechaInicio.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.FechaInicio.BorderSize = 0;
-            this.FechaInicio.CalendarForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.FechaInicio.CalendarTitleForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.FechaInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.FechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.FechaInicio.Location = new System.Drawing.Point(100, 28);
-            this.FechaInicio.Margin = new System.Windows.Forms.Padding(2);
-            this.FechaInicio.MinimumSize = new System.Drawing.Size(4, 35);
-            this.FechaInicio.Name = "FechaInicio";
-            this.FechaInicio.Size = new System.Drawing.Size(106, 35);
-            this.FechaInicio.SkinColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(99)))), ((int)(((byte)(91)))));
-            this.FechaInicio.TabIndex = 135;
-            this.FechaInicio.TextColor = System.Drawing.Color.White;
-            // 
             // lblDateFin
             // 
-            this.lblDateFin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDateFin.AutoSize = true;
             this.lblDateFin.BackColor = System.Drawing.Color.Transparent;
             this.lblDateFin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDateFin.ForeColor = System.Drawing.Color.DimGray;
-            this.lblDateFin.Location = new System.Drawing.Point(254, 35);
+            this.lblDateFin.Location = new System.Drawing.Point(150, 9);
             this.lblDateFin.Name = "lblDateFin";
             this.lblDateFin.Size = new System.Drawing.Size(69, 16);
             this.lblDateFin.TabIndex = 139;
             this.lblDateFin.Text = "Fecha Fin:";
             // 
-            // Fechafinal
-            // 
-            this.Fechafinal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Fechafinal.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.Fechafinal.BorderSize = 0;
-            this.Fechafinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.Fechafinal.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.Fechafinal.Location = new System.Drawing.Point(329, 28);
-            this.Fechafinal.Margin = new System.Windows.Forms.Padding(2);
-            this.Fechafinal.MinimumSize = new System.Drawing.Size(4, 35);
-            this.Fechafinal.Name = "Fechafinal";
-            this.Fechafinal.Size = new System.Drawing.Size(111, 35);
-            this.Fechafinal.SkinColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(99)))), ((int)(((byte)(91)))));
-            this.Fechafinal.TabIndex = 138;
-            this.Fechafinal.TextColor = System.Drawing.Color.White;
-            // 
             // btnBuscar
             // 
-            this.btnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBuscar.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBuscar.FlatAppearance.BorderSize = 0;
@@ -197,11 +162,69 @@
             this.lblTotal.Size = new System.Drawing.Size(0, 25);
             this.lblTotal.TabIndex = 141;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DimGray;
+            this.label2.Location = new System.Drawing.Point(284, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(62, 16);
+            this.label2.TabIndex = 142;
+            this.label2.Text = "Sucursal:";
+            // 
+            // cmbSucursales
+            // 
+            this.cmbSucursales.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSucursales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmbSucursales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSucursales.FormattingEnabled = true;
+            this.cmbSucursales.Location = new System.Drawing.Point(275, 30);
+            this.cmbSucursales.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbSucursales.Name = "cmbSucursales";
+            this.cmbSucursales.Size = new System.Drawing.Size(183, 28);
+            this.cmbSucursales.TabIndex = 148;
+            // 
+            // Fechafinal
+            // 
+            this.Fechafinal.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.Fechafinal.BorderSize = 0;
+            this.Fechafinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.Fechafinal.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.Fechafinal.Location = new System.Drawing.Point(141, 28);
+            this.Fechafinal.Margin = new System.Windows.Forms.Padding(2);
+            this.Fechafinal.MinimumSize = new System.Drawing.Size(4, 35);
+            this.Fechafinal.Name = "Fechafinal";
+            this.Fechafinal.Size = new System.Drawing.Size(111, 35);
+            this.Fechafinal.SkinColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(99)))), ((int)(((byte)(91)))));
+            this.Fechafinal.TabIndex = 138;
+            this.Fechafinal.TextColor = System.Drawing.Color.White;
+            // 
+            // FechaInicio
+            // 
+            this.FechaInicio.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.FechaInicio.BorderSize = 0;
+            this.FechaInicio.CalendarForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.FechaInicio.CalendarTitleForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.FechaInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.FechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.FechaInicio.Location = new System.Drawing.Point(2, 28);
+            this.FechaInicio.Margin = new System.Windows.Forms.Padding(2);
+            this.FechaInicio.MinimumSize = new System.Drawing.Size(4, 35);
+            this.FechaInicio.Name = "FechaInicio";
+            this.FechaInicio.Size = new System.Drawing.Size(106, 35);
+            this.FechaInicio.SkinColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(99)))), ((int)(((byte)(91)))));
+            this.FechaInicio.TabIndex = 135;
+            this.FechaInicio.TextColor = System.Drawing.Color.White;
+            // 
             // FormHistorialPlanes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(880, 542);
+            this.Controls.Add(this.cmbSucursales);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblDateFin);
@@ -229,5 +252,7 @@
         internal System.Windows.Forms.Button btnBuscar;
         internal System.Windows.Forms.Label label1;
         internal System.Windows.Forms.Label lblTotal;
+        internal System.Windows.Forms.Label label2;
+        public System.Windows.Forms.ComboBox cmbSucursales;
     }
 }

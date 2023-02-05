@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Efecto System.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Efecto System.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Efecto Security.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -451,14 +451,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Domain.dll" size="45568">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Domain.dll" size="56832">
       <assemblyIdentity name="Domain" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pmbwq2uzw5oC1SDBX1puX7SZx6UKunR3E8nUn7SThVY=</dsig:DigestValue>
+        <dsig:DigestValue>FCbIUUd8IkPXXRcM5/cXtX4X6Q2+Vd1K82oKSMAHc8Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -511,14 +511,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Efecto System.exe" size="985040">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Efecto System.exe" size="1013712">
       <assemblyIdentity name="Efecto System" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3so2skJYxCehrbVpCUMQv77RHwvJZyVhnzfX0pY6+Lk=</dsig:DigestValue>
+        <dsig:DigestValue>cUj9y4bJWqX/PwYCnVEM9RJGaLy/lxuIWqOnwssV0nw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -546,6 +546,15 @@
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name=".gitignore" size="7908">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5KOgSGYgRieGpuEo8ksbvcRS8rkEvzKqCzxsQtks/Nw=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="Efecto Security.ico" size="137036">
     <hash>
       <dsig:Transforms>
@@ -555,13 +564,13 @@
       <dsig:DigestValue>fd7WRvwgGTi9kyYmarf0+SJMPencKxSATVy/jDsA/WA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Efecto System.exe.config" size="954">
+  <file name="Efecto System.exe.config" size="1194">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Iv18DGsMHR0cZ4RXCJbJuvdircZCV24rQ8kajoPP51A=</dsig:DigestValue>
+      <dsig:DigestValue>YA5Xl37YHBgO+PE8Lv9Izlnrp79Uz18YlTeY3GEYcqM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\btnClose.png" size="300">

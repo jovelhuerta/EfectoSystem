@@ -23,11 +23,14 @@ namespace Presentation.ChildForms
         private UserModel userModel = new UserModel();
         private PuestosModels positionModel = new PuestosModels();
         private RolesModels roleModel = new RolesModels();
+        private SucursalModel sucursalModel= new SucursalModel();
 
         public FormVerifyUser()
         {
             InitializeComponent();
             txtConcect.Text = Properties.Settings.Default.ApiEfGym;
+            txtNameSucursal.Text = Properties.Settings.Default.Sucursal;
+            txtTypeSucursal.Text = Properties.Settings.Default.Tipo;
         }
         private void VerifyConectedUser()
         {
@@ -43,6 +46,26 @@ namespace Presentation.ChildForms
             {
                 lblMessage.Text = "Su contraseña es incorrecto, vuelva a intentarlo";
             }
+        }
+
+        private async void SaveSucursal()
+        {
+            if (!String.IsNullOrEmpty(txtNameSucursal.Text) && !String.IsNullOrEmpty(txtTypeSucursal.Text))
+            {
+                //Actualizamos las Variables Globales
+                Properties.Settings.Default.Sucursal = txtNameSucursal.Text;
+                Properties.Settings.Default.Tipo = txtTypeSucursal.Text;
+                Properties.Settings.Default.Save();
+                //Guardamos el nombre a la API
+                int vas=await SendSucursal();
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
+            else
+            {
+                lblMessage.Text = "Su contraseña es incorrecto, vuelva a intentarlo";
+            }
+
         }
 
         private void btnOk_Click(object sender, EventArgs e)
@@ -115,10 +138,38 @@ namespace Presentation.ChildForms
             return 1;
         }
 
+        private async Task<int> SendSucursal()
+        {
+            sucursalModel = new SucursalModel();
+            sucursalModel.Sucursal = txtNameSucursal.Text;
+            sucursalModel.Tipo = txtTypeSucursal.Text;
+            sucursalModel.Activo = true;
+            int res = await sucursalModel.CreateSucursal(urlApi);
+            res = await sucursalModel.SetSucursalToClients(urlApi);
+            return 1;
+        }
+
+        private void DoExportData()
+        {
+            string dat = sucursalModel.ExportData(urlApi);
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+        }
+
         private async void btnCheck_Click(object sender, EventArgs e)
         {
            lblMessage.Text= await CheckDataExist();
 
+        }
+
+        private void btnSaveSucursal_Click(object sender, EventArgs e)
+        {
+            SaveSucursal();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DoExportData();
         }
     }
 }

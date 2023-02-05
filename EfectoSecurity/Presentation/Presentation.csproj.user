@@ -3,9 +3,9 @@
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
     <PublishUrlHistory>D:\Documentos\Jovel\GitHubProyects\EfectoSystem\published\|D:\Documentos\Proyectos\Ejecutables\Efecto System\|E:\Documentos\Files Jovel\Proyectos\Ejecutables\Efecto System\|ftp://18.223.82.168/Efecto/|ftp://18.223.82.168/</PublishUrlHistory>
-    <InstallUrlHistory>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/|http://18.223.82.168:8081/Efecto/Efecto System.application/|http://18.223.82.168:8081/Efecto/Efecto System./|http://18.223.82.168:8081/Efecto/setup.exe/|http://18.223.82.168:8081/Efecto/</InstallUrlHistory>
+    <InstallUrlHistory>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/|https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/develop/published/|http://18.223.82.168:8081/Efecto/Efecto System.application/|http://18.223.82.168:8081/Efecto/Efecto System./|http://18.223.82.168:8081/Efecto/setup.exe/</InstallUrlHistory>
     <SupportUrlHistory />
-    <UpdateUrlHistory>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/|https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/.gitattributes/|http://18.223.82.168:8081/Efecto/|http://18.223.82.168/Efecto/|http://18.223.82.168:8081/Efecto/Application Files/</UpdateUrlHistory>
+    <UpdateUrlHistory>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/develop/published/|https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/|https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/.gitattributes/|http://18.223.82.168:8081/Efecto/|http://18.223.82.168/Efecto/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />
     <FallbackCulture>es-ES</FallbackCulture>

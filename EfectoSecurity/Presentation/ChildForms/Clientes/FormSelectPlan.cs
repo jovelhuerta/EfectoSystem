@@ -14,17 +14,25 @@ namespace Presentation.ChildForms.Clientes
     public partial class FormSelectPlan : BaseForms.BaseFixedForm
     {
         private PlanesModel plModel = new PlanesModel();
+        private PlanesEntrenadorModel plEntrenador = new PlanesEntrenadorModel();
         private List<PlanesModel> ltsPlanes;
+        private List<PlanesEntrenadorModel> ltsPlanesEn;
         public int vigencia;
         public int TipoVigencia;
         public int costo;
+        public bool singlePlan;
         private readonly string urlApi = Properties.Settings.Default.ApiEfGym;
 
-        public FormSelectPlan()
+        public FormSelectPlan(bool isSinglePlan)
         {
             InitializeComponent();
+            singlePlan = isSinglePlan;
             ltsPlanes = plModel.GetPlanes(urlApi).ToList();
-            cmbPlan.DataSource = ltsPlanes;
+            ltsPlanesEn = plEntrenador.GetPlanes(urlApi).ToList();
+            if(isSinglePlan)
+                cmbPlan.DataSource = ltsPlanes;
+            else
+                cmbPlan.DataSource = ltsPlanesEn;
             cmbPlan.DisplayMember = "Descripcion";
             cmbPlan.ValueMember = "Descripcion";
             cmbPlan.SelectedIndex = -1;//Sin seleccion de indice.
@@ -49,9 +57,19 @@ namespace Presentation.ChildForms.Clientes
                     vigen=DateTime.Now.AddDays(vigencia);
                 else//POR MES
                     vigen = DateTime.Now.AddMonths(vigencia);
-                padre.txtPago.Text = ""+costo;
-                padre.txtPlanActual.Text = cmbPlan.Text;
-                padre.txtVencimiento.Text=vigen.ToString();
+                if (singlePlan)
+                {
+                    padre.txtPago.Text = "" + costo;
+                    padre.txtPlanActual.Text = cmbPlan.Text;
+                    padre.txtVencimiento.Text = vigen.ToString();
+                }
+                else
+                {
+                    padre.txtPagoEnt.Text = "" + costo;
+                    padre.txtPlanEnt.Text = cmbPlan.Text;
+                    padre.txtVencEntr.Text = vigen.ToString();
+                }
+                
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }
@@ -62,13 +80,24 @@ namespace Presentation.ChildForms.Clientes
         {
             string temp = "";
             if (cmbPlan.SelectedIndex != -1)
-                temp = (string)cmbPlan.Text;
-            if (!String.IsNullOrEmpty(temp) &&temp != "Domain.Configure.PlanesModel")
             {
-                costo= ltsPlanes.Where(a => a.Descripcion == temp).FirstOrDefault().Costo;
+                temp = (string)cmbPlan.Text;
+            }
+            if (!String.IsNullOrEmpty(temp) && !temp.Contains("Domain.Configure"))//.PlanesModel")
+            {
+                if(singlePlan)
+                    costo= ltsPlanes.Where(a => a.Descripcion == temp).FirstOrDefault().Costo;
+                else
+                    costo = ltsPlanesEn.Where(a => a.Descripcion == temp).FirstOrDefault().Costo;
                 txtCosto.Text = "$ " + costo;
-                vigencia = ltsPlanes.Where(a => a.Descripcion == temp).FirstOrDefault().Vigencia;
-                TipoVigencia = ltsPlanes.Where(a => a.Descripcion == temp).FirstOrDefault().TipoVigencia;
+                if (singlePlan)
+                    vigencia = ltsPlanes.Where(a => a.Descripcion == temp).FirstOrDefault().Vigencia;
+                else
+                    vigencia = ltsPlanesEn.Where(a => a.Descripcion == temp).FirstOrDefault().Vigencia;
+                if (singlePlan)
+                    TipoVigencia = ltsPlanes.Where(a => a.Descripcion == temp).FirstOrDefault().TipoVigencia;
+                else
+                    TipoVigencia = ltsPlanesEn.Where(a => a.Descripcion == temp).FirstOrDefault().TipoVigencia;
                 string tipo = TipoVigencia == 0 && vigencia == 1 ? "DIA" : TipoVigencia == 0 && vigencia > 1 ? "DIAS" :
                             TipoVigencia == 1 && vigencia == 1 ? "MES" : "MESES";
                 txtVigencia.Text = "" + vigencia + " " + tipo;
