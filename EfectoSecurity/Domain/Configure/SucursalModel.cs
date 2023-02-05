@@ -65,6 +65,12 @@ namespace Domain.Configure
                 (url, "Sucursales/SetSucursales", mod);
         }
 
+        public string ExportData(string url)
+        {
+            string s = peticiones.MethodHtt(url + "Export/ExportData", null, "GET");
+            return s;
+        }
+
         /// <summary>
         /// Metodo que obtiene todas las sucursales
         /// </summary>

@@ -149,6 +149,13 @@ namespace Presentation.ChildForms
             return 1;
         }
 
+        private void DoExportData()
+        {
+            string dat = sucursalModel.ExportData(urlApi);
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+        }
+
         private async void btnCheck_Click(object sender, EventArgs e)
         {
            lblMessage.Text= await CheckDataExist();
@@ -158,6 +165,11 @@ namespace Presentation.ChildForms
         private void btnSaveSucursal_Click(object sender, EventArgs e)
         {
             SaveSucursal();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DoExportData();
         }
     }
 }

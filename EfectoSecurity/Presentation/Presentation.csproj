@@ -390,6 +390,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="Efecto Security.ico" />
     <Content Include="Resources\btnClose.png" />
     <Content Include="Resources\btnMaximize.png" />
