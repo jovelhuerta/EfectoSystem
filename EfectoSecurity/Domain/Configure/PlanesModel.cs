@@ -114,6 +114,12 @@ namespace Domain.Configure
             return await peticiones.MethodPostBody<PlanesModel>(url, "Planes/UpdatePlan", us);
         }
 
+        /// <summary>
+        /// Metodo que obtiene la informacion del plan por el Id
+        /// </summary>
+        /// <param name="url"></param>
+        /// <param name="idPlan"></param>
+        /// <returns></returns>
         public async Task<PlanesModel> GetPlanById(string url, string idPlan)
         {
             PlanesModel us = await peticiones.MethodGet<PlanesModel>(url, "Planes/GetPlanById/" + idPlan);
@@ -121,6 +127,17 @@ namespace Domain.Configure
                 return us;
             else
                 return null;
+        }
+
+        /// <summary>
+        /// Metodo para eliminar plan por Id
+        /// </summary>
+        /// <param name="url"></param>
+        /// <param name="idPlan"></param>
+        /// <returns></returns>
+        public async Task<object> DeletePlan(string url,string idPlan)
+        {
+            return await peticiones.MethodGet<object>(url, "Planes/DeletePlan/" + idPlan);
         }
 
         private PlanesModel MapModel(Planes pt)

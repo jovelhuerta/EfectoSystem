@@ -194,15 +194,11 @@
     <Compile Include="ChildForms\FormHorarios.Designer.cs">
       <DependentUpon>FormHorarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChildForms\FormPlanes.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="ChildForms\FormPlanes.cs" />
     <Compile Include="ChildForms\FormPlanes.Designer.cs">
       <DependentUpon>FormPlanes.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChildForms\FormPlanMaintenance.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="ChildForms\FormPlanMaintenance.cs" />
     <Compile Include="ChildForms\FormPlanMaintenance.Designer.cs">
       <DependentUpon>FormPlanMaintenance.cs</DependentUpon>
     </Compile>
