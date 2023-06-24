@@ -451,14 +451,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Domain.dll" size="48128">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Domain.dll" size="56832">
       <assemblyIdentity name="Domain" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ppHQQ6P1E4DmFH0BahuVXDmWz2xQUh+DQ4LSR0NFbfw=</dsig:DigestValue>
+        <dsig:DigestValue>FCbIUUd8IkPXXRcM5/cXtX4X6Q2+Vd1K82oKSMAHc8Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -511,14 +511,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Efecto System.exe" size="988112">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Efecto System.exe" size="1013712">
       <assemblyIdentity name="Efecto System" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Rc8lJCcASS8aq7Vzg3tiwGUGtpUN8reeLl9l+NYrMcQ=</dsig:DigestValue>
+        <dsig:DigestValue>yqBRksl23x/xHGYZZObo/f2bmcB1xtBM19cscbe/sdo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -546,6 +546,15 @@
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name=".gitignore" size="7908">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5KOgSGYgRieGpuEo8ksbvcRS8rkEvzKqCzxsQtks/Nw=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="Efecto Security.ico" size="137036">
     <hash>
       <dsig:Transforms>

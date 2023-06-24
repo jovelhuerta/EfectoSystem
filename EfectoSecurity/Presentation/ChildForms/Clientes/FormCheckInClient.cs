@@ -64,11 +64,14 @@ namespace Presentation.ChildForms.Clientes
                         txtVencimiento.Text = cltModels.FechaVencimiento;
                         txtTelefono.Text = cltModels.NumeroTelefono;
                         txtPlan.Text = cltModels.PlanActual;
+                        txtPlanEnt.Text = cltModels.PlanEntrenador;
                         txtNumero.Text = cltModels.NumeroCliente;
                         txtNombre.Text = cltModels.NombreCliente;
                         txtEntrenador.Text = cltModels.EntrenadorActual;
                         txtIngreso.Text = DateTime.Parse(cltModels.FechaIngreso).ToShortDateString();
-
+                        lblSucursal.Text = cltModels.Sucursal;
+                        txtDiasEnt.Text = "";
+                        txtVencimientoEnt.Text = "";
                         DateTime now = DateTime.Now;
                         DateTime ven = DateTime.Parse(cltModels.FechaVencimiento);
                         TimeSpan difFechas = ven - now;
@@ -77,20 +80,46 @@ namespace Presentation.ChildForms.Clientes
                         {
                             lblAlerta.Visible = true;
                             txtVencimiento.BackColor = Color.DarkOrange;
-                            lblAlerta.BackColor = Color.DarkOrange;
+                            lblAlerta.ForeColor = Color.DarkOrange;
                             lblAlerta.Text = "Plan por vencer Dias Restantes:" + difFechas.Days;
                         }
                         if (difFechas.Days <= 0)
                         {
                             lblAlerta.Visible = true;
                             txtVencimiento.BackColor = Color.Red;
-                            lblAlerta.BackColor = Color.Red;
+                            lblAlerta.ForeColor = Color.Red;
                             lblAlerta.Text = "PLAN VENCIDO";
                         }
                         if (difFechas.Days > 7)
                         {
                             lblAlerta.Visible = false;
                             txtVencimiento.BackColor = Color.LightGray;
+                        }
+                        if (cltModels.FechaEntrenador != null)
+                        {
+                            txtVencimientoEnt.Text = cltModels.FechaEntrenador;
+                            DateTime venEnt = DateTime.Parse(cltModels.FechaEntrenador);
+                            TimeSpan difFechasEnt = venEnt - now;
+                            txtDiasEnt.Text = "" + difFechasEnt.Days;
+                            if (difFechasEnt.Days < 7)
+                            {
+                                lblAlertaEnt.Visible = true;
+                                txtVencimientoEnt.BackColor = Color.DarkOrange;
+                                lblAlertaEnt.ForeColor = Color.DarkOrange;
+                                lblAlertaEnt.Text = "Plan por vencer Dias Restantes:" + difFechasEnt.Days;
+                            }
+                            if (difFechasEnt.Days <= 0)
+                            {
+                                lblAlertaEnt.Visible = true;
+                                txtVencimientoEnt.BackColor = Color.Red;
+                                lblAlertaEnt.ForeColor = Color.Red;
+                                lblAlertaEnt.Text = "PLAN VENCIDO";
+                            }
+                            if (difFechasEnt.Days > 7)
+                            {
+                                lblAlertaEnt.Visible = false;
+                                txtVencimientoEnt.BackColor = Color.LightGray;
+                            }
                         }
                     }
                 }
@@ -126,11 +155,14 @@ namespace Presentation.ChildForms.Clientes
                         txtVencimiento.Text = cltModels.FechaVencimiento;
                         txtTelefono.Text = cltModels.NumeroTelefono;
                         txtPlan.Text = cltModels.PlanActual;
+                        txtPlanEnt.Text= cltModels.PlanEntrenador;
                         txtNumero.Text = cltModels.NumeroCliente;
                         txtNombre.Text = cltModels.NombreCliente;
                         txtEntrenador.Text = cltModels.EntrenadorActual;
                         txtIngreso.Text = DateTime.Parse(cltModels.FechaIngreso).ToShortDateString();
-
+                        lblSucursal.Text = cltModels.Sucursal;
+                        txtDiasEnt.Text = "";
+                        txtVencimientoEnt.Text = "";
                         DateTime now = DateTime.Now;
                         DateTime ven = DateTime.Parse(cltModels.FechaVencimiento);
                         TimeSpan difFechas = ven - now;
@@ -139,14 +171,14 @@ namespace Presentation.ChildForms.Clientes
                         {
                             lblAlerta.Visible = true;
                             txtVencimiento.BackColor = Color.DarkOrange;
-                            lblAlerta.BackColor = Color.DarkOrange;
+                            lblAlerta.ForeColor = Color.DarkOrange;
                             lblAlerta.Text = "Plan por vencer Dias Restantes:" + difFechas.Days;
                         }
                         if (difFechas.Days <= 0)
                         {
                             lblAlerta.Visible = true;
                             txtVencimiento.BackColor = Color.Red;
-                            lblAlerta.BackColor = Color.Red;
+                            lblAlerta.ForeColor = Color.Red;
                             lblAlerta.Text = "PLAN VENCIDO";
                         }
                         if (difFechas.Days > 7)
@@ -154,6 +186,34 @@ namespace Presentation.ChildForms.Clientes
                             lblAlerta.Visible = false;
                             txtVencimiento.BackColor = Color.LightGray;
                         }
+                        if (cltModels.FechaEntrenador != null)
+                        {
+                            txtVencimientoEnt.Text = cltModels.FechaEntrenador;
+                            DateTime venEnt = DateTime.Parse(cltModels.FechaEntrenador);
+                            TimeSpan difFechasEnt = venEnt - now;
+                            txtDiasEnt.Text = "" + difFechasEnt.Days;
+                            if (difFechasEnt.Days < 7)
+                            {
+                                lblAlertaEnt.Visible = true;
+                                txtVencimientoEnt.BackColor = Color.DarkOrange;
+                                lblAlertaEnt.ForeColor = Color.DarkOrange;
+                                lblAlertaEnt.Text = "Plan por vencer Dias Restantes:" + difFechasEnt.Days;
+                            }
+                            if (difFechasEnt.Days <= 0)
+                            {
+                                lblAlertaEnt.Visible = true;
+                                txtVencimientoEnt.BackColor = Color.Red;
+                                lblAlertaEnt.ForeColor = Color.Red;
+                                lblAlertaEnt.Text = "PLAN VENCIDO";
+                            }
+                            if (difFechasEnt.Days > 7)
+                            {
+                                lblAlertaEnt.Visible = false;
+                                txtVencimientoEnt.BackColor = Color.LightGray;
+                            }
+                        }
+
+
                         }));
                     }
                 }
@@ -176,7 +236,7 @@ namespace Presentation.ChildForms.Clientes
                 DialogResult result = userForm.ShowDialog();
                 if (result == DialogResult.OK)
                 {
-                    var userDM = await cltModels.GetClientByNum(urlApi, cltModels.NumeroCliente);
+                    var userDM = await cltModels.GetClientByNum(urlApi, cltModels.Id);
                     cltModels = userDM;
                     ModelToFill(false);
                     ltsClientes = cltModels.GetAllClients(urlApi).ToList();

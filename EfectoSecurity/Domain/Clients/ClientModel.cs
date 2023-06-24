@@ -23,6 +23,10 @@ namespace Domain.Clients
         private string _idUsuario;
         private string _totalPagado;
         private bool _editVigencia;
+        private string _sucursal;
+        private string _planEntrenador;
+        private string _fechaEntrenador;
+        private bool _editVigenciaEntrenador;
         private Cliente _cliente;
         private PeticionesHttp peticiones = new PeticionesHttp();
 
@@ -33,7 +37,7 @@ namespace Domain.Clients
         }
 
         public ClientModel(string id, string nombreCliente, string numeroCliente, string numeroTelefono, string fechaIngreso, string fechaVencimiento, string planActual,
-                            byte[] fingerPrint, bool activo, string entrenadorActual, string idUsuario, string totalPagado)
+                            byte[] fingerPrint, bool activo, string entrenadorActual, string idUsuario, string totalPagado, string sucursal, string planEntrenador, string fechaEntrenador )
         {
             _id = id;
             _nombreCliente = nombreCliente;
@@ -47,6 +51,9 @@ namespace Domain.Clients
             _entrenadorActual = entrenadorActual;
             _idUsuario = idUsuario;
             _totalPagado = totalPagado;
+            _sucursal = sucursal;
+            _planEntrenador = planEntrenador;
+            _fechaEntrenador = fechaEntrenador;
         }
 
         #region -> Validaciones de metodos Publicos
@@ -68,6 +75,10 @@ namespace Domain.Clients
         public string IdUsuario { get { return _idUsuario; } set { _idUsuario = value; } }
         public string TotalPagado { get { return _totalPagado; } set { _totalPagado = value; } }
         public bool EditVigencia { get { return _editVigencia; } set { _editVigencia = value; } }
+        public string Sucursal { get { return _sucursal; } set { _sucursal = value; } }
+        public string PlanEntrenador { get { return _planEntrenador; } set { _planEntrenador = value; } }
+        public string FechaEntrenador { get { return _fechaEntrenador; } set { _fechaEntrenador = value; } }
+        public bool EditVigenciaEntrenador { get { return _editVigenciaEntrenador; }set { _editVigenciaEntrenador = value; } }
         #endregion
 
 
@@ -86,6 +97,12 @@ namespace Domain.Clients
         public async void CheckIn(string Url,string cliente,string iUsuario)
         {
             await peticiones.MethodGet<object>(Url, "Clientes/RegisterCheckIn/"+cliente+"/"+iUsuario);
+        }
+
+        public async Task<object> CleanClients(string url)
+        {
+           return await peticiones.MethodGet<object>(url, "Clientes/CleanClient");
+
         }
 
         public IEnumerable<ClientModel> GetAllClients(string Url)
@@ -122,15 +139,17 @@ namespace Domain.Clients
                 Id = entity.id,
                 Activo = entity.activo,
                 EntrenadorActual = entity.entrenadorActual,
-                FechaIngreso=entity.fechaIngreso,
-                FechaVencimiento=entity.fechaVencimiento,
-                FingerPrint=entity.fingerPrint,
-                IdUsuario=entity.idUsuario,
-                NombreCliente=entity.nombreCliente,
-                NumeroCliente=entity.numeroCliente,
-                PlanActual=entity.planActual,
-                TotalPagado=entity.totalPagado,
-                NumeroTelefono=entity.numeroTelefono
+                FechaIngreso = entity.fechaIngreso,
+                FechaVencimiento = entity.fechaVencimiento,
+                FingerPrint = entity.fingerPrint,
+                IdUsuario = entity.idUsuario,
+                NombreCliente = entity.nombreCliente,
+                NumeroCliente = entity.numeroCliente,
+                PlanActual = entity.planActual,
+                TotalPagado = entity.totalPagado,
+                NumeroTelefono = entity.numeroTelefono,
+                Sucursal = entity.sucursal,
+                PlanEntrenador = entity.planEntrenador
             };
         }
 
@@ -159,5 +178,8 @@ namespace Domain.Clients
         public string entrenadorActual { get; set; }
         public string idUsuario { get; set; }
         public string totalPagado { get; set; }
+        public string sucursal { get; set; }
+        public string planEntrenador { get; set; }
+        public string fechaEntrenador { get; set; }
     }
 }

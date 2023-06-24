@@ -12,13 +12,13 @@ using System.Windows.Forms;
 
 namespace Presentation.ChildForms.Clientes
 {
-    public partial class FormHistorialPlanes : Form
+    public partial class FormHistorialPlanesEntrenador : Form
     {
         private HistoryPlanesClientesModel history = new HistoryPlanesClientesModel();
         private readonly string urlApi = Properties.Settings.Default.ApiEfGym;
         private SucursalModel sucursalModel = new SucursalModel();
         private List<SucursalModel> ltsSucursal;
-        public FormHistorialPlanes()
+        public FormHistorialPlanesEntrenador()
         {
             InitializeComponent();
             ltsSucursal = sucursalModel.GetAllSucursal(urlApi).ToList();
@@ -36,7 +36,7 @@ namespace Presentation.ChildForms.Clientes
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            List<HistoryPlanesClientesModel> lts = history.GetHisoryByRange(urlApi, "" + DateTime.Parse(FechaInicio.Text).Ticks,
+            List<HistoryPlanesClientesModel> lts = history.GetHisoryByRangeForEntrenadores(urlApi, "" + DateTime.Parse(FechaInicio.Text).Ticks,
                                                                 "" + DateTime.Parse(Fechafinal.Text).Ticks, cmbSucursales.Text).ToList();
             double sum = 0;
             foreach (HistoryPlanesClientesModel tem in lts)

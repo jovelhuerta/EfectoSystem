@@ -23,12 +23,12 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/develop/published/</InstallUrl>
-    <UpdateUrl>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/develop/published/</UpdateUrl>
+    <InstallUrl>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/</UpdateUrl>
     <PublisherName>JOVEL S.A.S</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -170,6 +170,12 @@
     <Compile Include="ChildForms\Clientes\FormHistorialPlanes.Designer.cs">
       <DependentUpon>FormHistorialPlanes.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChildForms\Clientes\FormHistorialPlanesEntrenador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\Clientes\FormHistorialPlanesEntrenador.Designer.cs">
+      <DependentUpon>FormHistorialPlanesEntrenador.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChildForms\Clientes\FormSelectPlan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,16 +200,28 @@
     <Compile Include="ChildForms\FormHorarios.Designer.cs">
       <DependentUpon>FormHorarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChildForms\FormPlanes.cs">
+    <Compile Include="ChildForms\Planes\FormPlanEntrenadorMaintenance.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChildForms\FormPlanes.Designer.cs">
+    <Compile Include="ChildForms\Planes\FormPlanEntrenadorMaintenance.Designer.cs">
+      <DependentUpon>FormPlanEntrenadorMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\Planes\FormPlanes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\Planes\FormPlanes.Designer.cs">
       <DependentUpon>FormPlanes.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChildForms\FormPlanMaintenance.cs">
+    <Compile Include="ChildForms\Planes\FormPlanesEntrenador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChildForms\FormPlanMaintenance.Designer.cs">
+    <Compile Include="ChildForms\Planes\FormPlanesEntrenador.Designer.cs">
+      <DependentUpon>FormPlanesEntrenador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\Planes\FormPlanMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\Planes\FormPlanMaintenance.Designer.cs">
       <DependentUpon>FormPlanMaintenance.cs</DependentUpon>
     </Compile>
     <Compile Include="ChildForms\Usuarios\FormUserMaintenance.cs">
@@ -295,6 +313,9 @@
     <EmbeddedResource Include="ChildForms\Clientes\FormHistorialPlanes.resx">
       <DependentUpon>FormHistorialPlanes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\Clientes\FormHistorialPlanesEntrenador.resx">
+      <DependentUpon>FormHistorialPlanesEntrenador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\Clientes\FormSelectPlan.resx">
       <DependentUpon>FormSelectPlan.cs</DependentUpon>
     </EmbeddedResource>
@@ -307,10 +328,16 @@
     <EmbeddedResource Include="ChildForms\FormHorarios.resx">
       <DependentUpon>FormHorarios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChildForms\FormPlanes.resx">
+    <EmbeddedResource Include="ChildForms\Planes\FormPlanEntrenadorMaintenance.resx">
+      <DependentUpon>FormPlanEntrenadorMaintenance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\Planes\FormPlanes.resx">
       <DependentUpon>FormPlanes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChildForms\FormPlanMaintenance.resx">
+    <EmbeddedResource Include="ChildForms\Planes\FormPlanesEntrenador.resx">
+      <DependentUpon>FormPlanesEntrenador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\Planes\FormPlanMaintenance.resx">
       <DependentUpon>FormPlanMaintenance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\Usuarios\FormUserMaintenance.resx">
@@ -363,6 +390,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="Efecto Security.ico" />
     <Content Include="Resources\btnClose.png" />
     <Content Include="Resources\btnMaximize.png" />

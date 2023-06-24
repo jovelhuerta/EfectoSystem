@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Domain.Configure
 {
-    public class PlanesModel
+    public class PlanesEntrenadorModel
     {
         private PeticionesHttp peticiones = new PeticionesHttp();
         private string _id;
@@ -17,13 +17,13 @@ namespace Domain.Configure
         private int _vigencia;
         private int _tipoVigencia;
         private bool _activo;
-        private Planes _planes;
+        private PlanesEntrenador _planes;
 
-        public PlanesModel()
+        public PlanesEntrenadorModel()
         {
-            _planes = new Planes();
+            _planes = new PlanesEntrenador();
         }
-        public PlanesModel(string id, int costo, string descripcion, int vigencia, int tipoVigencia, bool activo)
+        public PlanesEntrenadorModel(string id, int costo, string descripcion, int vigencia, int tipoVigencia, bool activo)
         {
             _id = id;
             _costo = costo;
@@ -72,7 +72,7 @@ namespace Domain.Configure
         public int Costo
         {
             get { return _costo; }
-            set {_costo = value;}
+            set { _costo = value; }
         }
 
 
@@ -85,10 +85,10 @@ namespace Domain.Configure
         /// </summary>
         /// <param name="url"></param>
         /// <returns></returns>
-        public IEnumerable<PlanesModel> GetPlanes(string url)
+        public IEnumerable<PlanesEntrenadorModel> GetPlanes(string url)
         {
-            string s = peticiones.MethodHtt(url + "Planes/GetAllPlanes", null, "GET");
-            var results = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Planes>>(s);
+            string s = peticiones.MethodHtt(url + "PlanesEntrenador/GetAllPlanes", null, "GET");
+            var results = Newtonsoft.Json.JsonConvert.DeserializeObject<List<PlanesEntrenador>>(s);
             return MapModel(results);
         }
 
@@ -99,8 +99,8 @@ namespace Domain.Configure
         /// <returns></returns>
         public async Task<int> CreatePlan(string url)
         {
-            PlanesModel pl = this;
-            return await peticiones.MethodPostBody<PlanesModel>(url, "Planes/InsertNewPlan", pl);
+            PlanesEntrenadorModel pl = this;
+            return await peticiones.MethodPostBody<PlanesEntrenadorModel>(url, "PlanesEntrenador/InsertNewPlan", pl);
         }
 
         /// <summary>
@@ -110,8 +110,8 @@ namespace Domain.Configure
         /// <returns></returns>
         public async Task<int> ModifyPlan(string url)
         {
-            PlanesModel us = this;
-            return await peticiones.MethodPostBody<PlanesModel>(url, "Planes/UpdatePlan", us);
+            PlanesEntrenadorModel us = this;
+            return await peticiones.MethodPostBody<PlanesEntrenadorModel>(url, "PlanesEntrenador/UpdatePlan", us);
         }
 
         /// <summary>
@@ -120,9 +120,9 @@ namespace Domain.Configure
         /// <param name="url"></param>
         /// <param name="idPlan"></param>
         /// <returns></returns>
-        public async Task<PlanesModel> GetPlanById(string url, string idPlan)
+        public async Task<PlanesEntrenadorModel> GetPlanById(string url, string idPlan)
         {
-            PlanesModel us = await peticiones.MethodGet<PlanesModel>(url, "Planes/GetPlanById/" + idPlan);
+            PlanesEntrenadorModel us = await peticiones.MethodGet<PlanesEntrenadorModel>(url, "PlanesEntrenador/GetPlanById/" + idPlan);
             if (us != null)
                 return us;
             else
@@ -135,27 +135,27 @@ namespace Domain.Configure
         /// <param name="url"></param>
         /// <param name="idPlan"></param>
         /// <returns></returns>
-        public async Task<object> DeletePlan(string url,string idPlan)
+        public async Task<object> DeletePlan(string url, string idPlan)
         {
-            return await peticiones.MethodGet<object>(url, "Planes/DeletePlan/" + idPlan);
+            return await peticiones.MethodGet<object>(url, "PlanesEntrenador/DeletePlan/" + idPlan);
         }
 
-        private PlanesModel MapModel(Planes pt)
+        private PlanesEntrenadorModel MapModel(PlanesEntrenador pt)
         {//Mapear un solo objeto.
-            return new PlanesModel()
+            return new PlanesEntrenadorModel()
             {
                 Id = pt.Id,
                 Descripcion = pt.Descripcion,
                 Activo = pt.Activo,
-                Vigencia=pt.Vigencia,
-                Costo=pt.Costo,
+                Vigencia = pt.Vigencia,
+                Costo = pt.Costo,
                 TipoVigencia = pt.TipoVigencia
             };
         }
 
-        private IEnumerable<PlanesModel> MapModel(IEnumerable<Planes> userEntities)
+        private IEnumerable<PlanesEntrenadorModel> MapModel(IEnumerable<PlanesEntrenador> userEntities)
         {//Mapear colección de objetos.
-            var userModels = new List<PlanesModel>();
+            var userModels = new List<PlanesEntrenadorModel>();
             foreach (var user in userEntities)
             {
                 userModels.Add(MapModel(user));
@@ -166,7 +166,7 @@ namespace Domain.Configure
         #endregion
     }
 
-    public class Planes
+    public class PlanesEntrenador
     {
         public string Id { get; set; }
         public int Costo { get; set; }
@@ -174,6 +174,7 @@ namespace Domain.Configure
         public int Vigencia { get; set; }
         public int TipoVigencia { get; set; }
         public bool Activo { get; set; }
-        
+
     }
+
 }

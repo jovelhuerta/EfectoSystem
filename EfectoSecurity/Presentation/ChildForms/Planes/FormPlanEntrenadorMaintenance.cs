@@ -10,26 +10,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
-namespace Presentation.ChildForms
+namespace Presentation.ChildForms.Planes
 {
-    public partial class FormPlanMaintenance : BaseForms.BaseFixedForm
+    public partial class FormPlanEntrenadorMaintenance : BaseForms.BaseFixedForm
     {
-        private PlanesModel planModel;
+        private PlanesEntrenadorModel planModel;
         private readonly string urlApi = Properties.Settings.Default.ApiEfGym;
         private bool planModify;
         private string planId;
         private List<object> objPlan = new List<object>();
-        public FormPlanMaintenance()
+        public FormPlanEntrenadorMaintenance()
         {
 
             InitializeComponent();
             lblCaption.Text = "Agregar nuevo Plan";
-            planModel = new PlanesModel();
+            planModel = new PlanesEntrenadorModel();
             planModify = false;
             SetFieldsCMB();
         }
-        public FormPlanMaintenance(PlanesModel plan)
+        public FormPlanEntrenadorMaintenance(PlanesEntrenadorModel plan)
         {
             InitializeComponent();
             this.TitleBarColor = Color.MediumSeaGreen;
@@ -76,9 +77,9 @@ namespace Presentation.ChildForms
         {//Cargar los datos del modelo  en los campos del formulario.
             planId = planModel.Id;
             txtName.Text = planModel.Descripcion;
-            txtCosto.Text = ""+planModel.Costo;
-            txtVigencia.Text = ""+planModel.Vigencia;
-            cmbTipo.Text = ""+planModel.TipoVigencia;
+            txtCosto.Text = "" + planModel.Costo;
+            txtVigencia.Text = "" + planModel.Vigencia;
+            cmbTipo.Text = "" + planModel.TipoVigencia;
         }
 
         /// <summary>
@@ -125,7 +126,7 @@ namespace Presentation.ChildForms
                 }
                 else //Si el objeto o contraseña NO es válido, mostrar mensaje segun el caso.
                 {
-                        MessageBox.Show(validateData.ErrorMessage, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show(validateData.ErrorMessage, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
 
             }
