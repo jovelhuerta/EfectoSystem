@@ -160,6 +160,7 @@ namespace Presentation.ChildForms.Clientes
                         txtNombre.Text = cltModels.NombreCliente;
                         txtEntrenador.Text = cltModels.EntrenadorActual;
                         txtIngreso.Text = DateTime.Parse(cltModels.FechaIngreso).ToShortDateString();
+                        lblSucursal.Text = cltModels.Sucursal;
                         txtDiasEnt.Text = "";
                         txtVencimientoEnt.Text = "";
                         DateTime now = DateTime.Now;
@@ -185,33 +186,32 @@ namespace Presentation.ChildForms.Clientes
                             lblAlerta.Visible = false;
                             txtVencimiento.BackColor = Color.LightGray;
                         }
-
-                            if (cltModels.FechaEntrenador != null)
+                        if (cltModels.FechaEntrenador != null)
+                        {
+                            txtVencimientoEnt.Text = cltModels.FechaEntrenador;
+                            DateTime venEnt = DateTime.Parse(cltModels.FechaEntrenador);
+                            TimeSpan difFechasEnt = venEnt - now;
+                            txtDiasEnt.Text = "" + difFechasEnt.Days;
+                            if (difFechasEnt.Days < 7)
                             {
-                                txtVencimientoEnt.Text = cltModels.FechaEntrenador;
-                                DateTime venEnt = DateTime.Parse(cltModels.FechaEntrenador);
-                                TimeSpan difFechasEnt = venEnt - now;
-                                txtDiasEnt.Text = "" + difFechasEnt.Days;
-                                if (difFechasEnt.Days < 7)
-                                {
-                                    lblAlertaEnt.Visible = true;
-                                    txtVencimientoEnt.BackColor = Color.DarkOrange;
-                                    lblAlertaEnt.ForeColor = Color.DarkOrange;
-                                    lblAlertaEnt.Text = "Plan por vencer Dias Restantes:" + difFechasEnt.Days;
-                                }
-                                if (difFechasEnt.Days <= 0)
-                                {
-                                    lblAlertaEnt.Visible = true;
-                                    txtVencimientoEnt.BackColor = Color.Red;
-                                    lblAlertaEnt.ForeColor = Color.Red;
-                                    lblAlertaEnt.Text = "PLAN VENCIDO";
-                                }
-                                if (difFechasEnt.Days > 7)
-                                {
-                                    lblAlertaEnt.Visible = false;
-                                    txtVencimientoEnt.BackColor = Color.LightGray;
-                                }
+                                lblAlertaEnt.Visible = true;
+                                txtVencimientoEnt.BackColor = Color.DarkOrange;
+                                lblAlertaEnt.ForeColor = Color.DarkOrange;
+                                lblAlertaEnt.Text = "Plan por vencer Dias Restantes:" + difFechasEnt.Days;
                             }
+                            if (difFechasEnt.Days <= 0)
+                            {
+                                lblAlertaEnt.Visible = true;
+                                txtVencimientoEnt.BackColor = Color.Red;
+                                lblAlertaEnt.ForeColor = Color.Red;
+                                lblAlertaEnt.Text = "PLAN VENCIDO";
+                            }
+                            if (difFechasEnt.Days > 7)
+                            {
+                                lblAlertaEnt.Visible = false;
+                                txtVencimientoEnt.BackColor = Color.LightGray;
+                            }
+                        }
 
 
                         }));
