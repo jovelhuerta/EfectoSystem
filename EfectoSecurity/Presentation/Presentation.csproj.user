@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectView>ShowAllFiles</ProjectView>
     <PublishUrlHistory>D:\Documentos\Jovel\GitHubProyects\EfectoSystem\published\|D:\Documentos\Proyectos\Ejecutables\Efecto System\|E:\Documentos\Files Jovel\Proyectos\Ejecutables\Efecto System\|ftp://18.223.82.168/Efecto/|ftp://18.223.82.168/</PublishUrlHistory>
     <InstallUrlHistory>https://raw.githubusercontent.com/jovelhuerta/EfectoSystem/main/published/|http://18.223.82.168:8081/Efecto/Efecto System.application/|http://18.223.82.168:8081/Efecto/Efecto System./|http://18.223.82.168:8081/Efecto/setup.exe/|http://18.223.82.168:8081/Efecto/</InstallUrlHistory>
     <SupportUrlHistory />

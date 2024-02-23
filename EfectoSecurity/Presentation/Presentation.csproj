@@ -28,7 +28,7 @@
     <PublisherName>JOVEL S.A.S</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -58,10 +58,10 @@
     <ApplicationIcon>Efecto Security.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>360CB883EE84C0ACCDFDF6F3BEB15B4F26B237CE</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>83DCC7C2927015B4AB4C84D2D913662C20A74BEA</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Presentation_1_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>Presentation_3_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -374,6 +374,8 @@
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Presentation_1_TemporaryKey.pfx" />
+    <None Include="Presentation_2_TemporaryKey.pfx" />
+    <None Include="Presentation_3_TemporaryKey.pfx" />
     <None Include="Presentation_TemporaryKey.pfx" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
