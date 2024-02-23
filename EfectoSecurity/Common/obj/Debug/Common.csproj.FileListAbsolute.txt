@@ -10,3 +10,9 @@ D:\Documentos\Proyectos\EfectoSecurity\Common\obj\Debug\Common.csproj.AssemblyRe
 D:\Documentos\Proyectos\EfectoSecurity\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 D:\Documentos\Proyectos\EfectoSecurity\Common\obj\Debug\Common.dll
 D:\Documentos\Proyectos\EfectoSecurity\Common\obj\Debug\Common.pdb
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Common\bin\Debug\Common.dll
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Common\bin\Debug\Common.pdb
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Common\obj\Debug\Common.dll
+D:\Documentos\Jovel\GitHubProyects\EfectoSystem\EfectoSecurity\Common\obj\Debug\Common.pdb
