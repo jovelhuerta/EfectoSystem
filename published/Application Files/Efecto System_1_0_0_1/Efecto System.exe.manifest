@@ -451,14 +451,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Domain.dll" size="56832">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Domain.dll" size="48128">
       <assemblyIdentity name="Domain" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FCbIUUd8IkPXXRcM5/cXtX4X6Q2+Vd1K82oKSMAHc8Q=</dsig:DigestValue>
+        <dsig:DigestValue>ppHQQ6P1E4DmFH0BahuVXDmWz2xQUh+DQ4LSR0NFbfw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -511,14 +511,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Efecto System.exe" size="1013712">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Efecto System.exe" size="988112">
       <assemblyIdentity name="Efecto System" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Rch98TdOwYtgUhGaE2L7QCwoys0EQs0xMLz/pwLSIgQ=</dsig:DigestValue>
+        <dsig:DigestValue>Rc8lJCcASS8aq7Vzg3tiwGUGtpUN8reeLl9l+NYrMcQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -546,15 +546,6 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name=".gitignore" size="7908">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>5KOgSGYgRieGpuEo8ksbvcRS8rkEvzKqCzxsQtks/Nw=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="Efecto Security.ico" size="137036">
     <hash>
       <dsig:Transforms>
@@ -644,4 +635,4 @@
       <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
     </application>
   </compatibility>
-<publisherIdentity name="CN=CAFI-TI-JOVEL\CAFI" issuerKeyHash="9a5d163c59e515c67bb88be3bd4f09fff46b7324" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2TgORQBiebE71N37GyV2PEjXvOj7zQp/a+0D19bt4Uo=</DigestValue></Reference></SignedInfo><SignatureValue>JIwkNzqzndkNQDt22KdYvRSlXHzSDf+t+AzdiUVL3n3ow/ygXXBniIplxRpzpiIAIpFjpLjIrWQTSff6h3yiCib6RoLpzHHLD46VzU3IF3zg1ZayNL2oeIWALofqPq4/+uCg/mwiKQXLYNFaY0duZs7axCrwdjVvKC/r4lTFBwM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xj81llVgQ1xo1YEusb1qGqA/CNLV7USuU4sajQfBIQZqLzD9q/s9s8pcXjvnLKMgpF/T9sgv+aaXqJX7M2rFNBuwAYeZPzrquYxJ/Kcyh7KDgPlh/N+7zHOu798+7SA6mQMKBZuqktXToUKwSMDDQ8Wxow7HVrprEqkFuBf8Zu0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4ae1edd6d703ed6b7f0acdfbe8bcd7483c76251bfbddd43bb1796200450e38d9" Description="" Url=""><as:assemblyIdentity name="Efecto System.exe" version="1.0.0.1" publicKeyToken="5e2658d8a219f2d2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CAFI-TI-JOVEL\CAFI</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VqzUe3xV+GreN1+YShebxQMenz3ZAWsiCWNZM0O2o8I=</DigestValue></Reference></SignedInfo><SignatureValue>S8V8duzBjZGSTtWYwaiwaxllWFBvzs+C6IkIoxM8Usvcigd5eu0Z4FUP7NoglY9kTKHI+keNLyTeLYFmTIHWpH68KAXJWkg29BlWRCybwpAtjdA7YLErQarhJWZKDYSSlWEDt1LQ2spq6ezlU7gkCvi3Kh1XBChRxvuBSOXsxQ0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xj81llVgQ1xo1YEusb1qGqA/CNLV7USuU4sajQfBIQZqLzD9q/s9s8pcXjvnLKMgpF/T9sgv+aaXqJX7M2rFNBuwAYeZPzrquYxJ/Kcyh7KDgPlh/N+7zHOu798+7SA6mQMKBZuqktXToUKwSMDDQ8Wxow7HVrprEqkFuBf8Zu0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQXD9B1NVn26ZH9W6OWJtz5TANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAQwBBAEYASQAtAFQASQAtAEoATwBWAEUATABcAEMAQQBGAEkwHhcNMjIwNzI4MTg0MDMzWhcNMjMwNzI5MDA0MDMzWjAvMS0wKwYDVQQDHiQAQwBBAEYASQAtAFQASQAtAEoATwBWAEUATABcAEMAQQBGAEkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMY/NZZVYENcaNWBLrG9ahqgPwjS1e1ErlOLGo0HwSEGai8w/av7PbPKXF475yyjIKRf0/bIL/mml6iV+zNqxTQbsAGHmT866rmMSfynMoeyg4D5Yfzfu8xzru/fPu0gOpkDCgWbqpLV06FCsEjAw0PFsaMOx1a6axKpBbgX/GbtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAU0IZ79GM5bX2e+o4D59z6mLiJFL9LwGw9uwDPmwy0wOoOD3dz22vI087c/6dvwuGPO+lHaUwiAp0MpBRwh3chqS/bOgIeACfiG4wlNCGXuCXtdTY7rfkyB2FG9QluqOUyWvhU8b0llPjiEnSw2/FlMevB0HasyYgUFUjxYu0hdw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=CAFI-TI-JOVEL\CAFI" issuerKeyHash="9a5d163c59e515c67bb88be3bd4f09fff46b7324" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TrQiI9B5yEQFdpTBcUikVqTlhrixCEgJFy/FUa4c2b0=</DigestValue></Reference></SignedInfo><SignatureValue>PabtRve5r0ZTYve4aZDx2JrYI37yY3VJ3vHmQWTvkbjGyuDkQsr88pbEPwRSI7qL9HRHSNDKkBG9rOPENnOvgeCuR7Xdu4Sc6I721FDPbHyNmtc2pk6dDU2HDXjTaOSx95WIF4lF6fwH5o/Oqi5K7hnWF+HmKGVUn2wMZpRreCY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xj81llVgQ1xo1YEusb1qGqA/CNLV7USuU4sajQfBIQZqLzD9q/s9s8pcXjvnLKMgpF/T9sgv+aaXqJX7M2rFNBuwAYeZPzrquYxJ/Kcyh7KDgPlh/N+7zHOu798+7SA6mQMKBZuqktXToUKwSMDDQ8Wxow7HVrprEqkFuBf8Zu0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bdd91cae51c52f17094808b1b886e5a456a44871c194760544c879d02322b44e" Description="" Url=""><as:assemblyIdentity name="Efecto System.exe" version="1.0.0.1" publicKeyToken="5e2658d8a219f2d2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CAFI-TI-JOVEL\CAFI</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6DUbkcu13ZO/iwSV8HAdb8VNG3btM38QjU0palG8lLg=</DigestValue></Reference></SignedInfo><SignatureValue>X/U7QoyIh4zxLHxER064ZJVBlJ2/zjgPMdHsW02DUVucQuL56e37RIOfEWG1u6KNiFeUX6VrFNRZEC35L66wuFGI8VP19/rN4RTCj+eHwYP17KMs4SCz1kVRtGL6CxUOKtdOQPN/ptsBgep1ybP183cIUOqsPq86caoaWe653DE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xj81llVgQ1xo1YEusb1qGqA/CNLV7USuU4sajQfBIQZqLzD9q/s9s8pcXjvnLKMgpF/T9sgv+aaXqJX7M2rFNBuwAYeZPzrquYxJ/Kcyh7KDgPlh/N+7zHOu798+7SA6mQMKBZuqktXToUKwSMDDQ8Wxow7HVrprEqkFuBf8Zu0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQXD9B1NVn26ZH9W6OWJtz5TANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAQwBBAEYASQAtAFQASQAtAEoATwBWAEUATABcAEMAQQBGAEkwHhcNMjIwNzI4MTg0MDMzWhcNMjMwNzI5MDA0MDMzWjAvMS0wKwYDVQQDHiQAQwBBAEYASQAtAFQASQAtAEoATwBWAEUATABcAEMAQQBGAEkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMY/NZZVYENcaNWBLrG9ahqgPwjS1e1ErlOLGo0HwSEGai8w/av7PbPKXF475yyjIKRf0/bIL/mml6iV+zNqxTQbsAGHmT866rmMSfynMoeyg4D5Yfzfu8xzru/fPu0gOpkDCgWbqpLV06FCsEjAw0PFsaMOx1a6axKpBbgX/GbtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAU0IZ79GM5bX2e+o4D59z6mLiJFL9LwGw9uwDPmwy0wOoOD3dz22vI087c/6dvwuGPO+lHaUwiAp0MpBRwh3chqS/bOgIeACfiG4wlNCGXuCXtdTY7rfkyB2FG9QluqOUyWvhU8b0llPjiEnSw2/FlMevB0HasyYgUFUjxYu0hdw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
